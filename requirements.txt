@@ -1,0 +1,11 @@
+random
+json
+pickle
+nltk.stem
+keras.models
+numpy
+fastapi
+pydantic
+fastapi.responses
+fastapi.middleware.cors
+uvicorn
