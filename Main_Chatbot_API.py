@@ -10,6 +10,8 @@ from pydantic import BaseModel
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
+nltk.download('wordnet')
+nltk.download('punkt')
 
 
 app = FastAPI()
