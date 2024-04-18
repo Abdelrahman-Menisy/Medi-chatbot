@@ -6,4 +6,4 @@ numpy
 nltk
 keras.models
 fastapi.responses
-
+tensorflow
