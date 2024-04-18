@@ -4,6 +4,7 @@ pydantic
 pickle5
 numpy
 nltk
+-e git+https://github.com/nltk/nltk.git@63bc9f5fa363230f6d2f85dd17eac45a9081caae
 keras.models
 fastapi.responses
 tensorflow
