@@ -4,8 +4,7 @@ pydantic
 pickle5
 numpy
 nltk
-nltk.download('wordnet')
-nltk.download('punkt')
+-e git+https://github.com/nltk/nltk.git@63bc9f5fa363230f6d2f85dd17eac45a9081caae#egg=nltk_data
 keras.models
 fastapi.responses
 tensorflow
