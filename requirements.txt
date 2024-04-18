@@ -1,9 +1,0 @@
-fastapi
-uvicorn
-pydantic
-pickle5
-numpy
-nltk
-keras.models
-fastapi.responses
-fastapi.middleware.cors
