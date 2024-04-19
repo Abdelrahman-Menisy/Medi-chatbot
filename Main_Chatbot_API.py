@@ -12,6 +12,8 @@ from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 nltk.download('wordnet')
 nltk.download('punkt')
+from googletrans import Translator
+from langdetect import detect
 
 
 app = FastAPI()
@@ -133,6 +135,47 @@ def process_text_message(txt):
 	res = get_response(predict, intents)
 	return res
 
+def detect_language(text):  # sourcery skip: inline-immediately-returned-variable
+    """
+    A function that detects the language of the input text.
+
+    Parameters:
+    text (str): The text for which the language needs to be detected.
+
+    Returns:
+    str or None: The detected language of the text, or None if an error occurs.
+    """
+    try:
+        language = detect(text)
+        return language
+    except Exception as e:
+        print("Error:", e)
+        return None
+    
+
+def translate_text_to_english(text, detected_language):
+    """
+    Translate Arabic text to English using Google Translate API.
+    
+    Parameters:
+    arabic_text (str): The Arabic text to be translated.
+    
+    Returns:
+    str: The translated text in English.
+    """
+    
+    translator = Translator()
+    translated_text = translator.translate(text, src=detected_language, dest='en')
+    return translated_text.text
+
+def translate_to_user_language(english_text, detected_language):
+
+    
+    translator = Translator()
+    translated_text = translator.translate(english_text, src='en', dest=detected_language)
+    return translated_text.text
+
+
 
 @app.post("/medi_message")
 async def process_medi_message(user_message: model_input):
@@ -141,13 +184,20 @@ async def process_medi_message(user_message: model_input):
     
     
     msg = user_message.msg
+    detected_language = detect_language(msg)
+    if detected_language == 'en':
+        text_response_in_user_lang = process_text_message(msg)
     
-    result = process_text_message(msg)
+    else:
+        english_message = translate_text_to_english(msg, detected_language)
+        text_response = process_text_message(english_message)
+        text_response_in_user_lang = translate_to_user_language(text_response, detected_language)
+    
     
     result = {
         
         "user_text": msg,
-        "response": result}
+        "response": text_response_in_user_lang}
     
     return JSONResponse(content=result)
     
