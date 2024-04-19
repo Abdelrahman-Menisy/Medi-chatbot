@@ -6,4 +6,6 @@ numpy
 nltk
 keras.models
 fastapi.responses
+googletrans
+langdetect
 tensorflow
