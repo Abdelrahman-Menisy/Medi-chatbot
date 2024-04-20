@@ -10,5 +10,5 @@ googletrans
 langdetect
 tensorflow
 pydub
-speech_recognition
+SpeechRecognition
 gtts
