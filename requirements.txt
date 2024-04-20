@@ -9,3 +9,7 @@ fastapi.responses
 googletrans
 langdetect
 tensorflow
+base64
+pydub
+speech_recognition
+gtts
