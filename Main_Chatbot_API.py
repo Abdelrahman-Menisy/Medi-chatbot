@@ -6,19 +6,16 @@ from nltk.stem import WordNetLemmatizer
 from keras.models import load_model
 import numpy as np
 from fastapi import FastAPI
-from pydantic import BaseModel
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 nltk.download('wordnet')
 nltk.download('punkt')
-import translators as ts
-# from langdetect import detect
 import speech_recognition as sr
 from gtts import gTTS
 from fastapi import FastAPI, HTTPException, UploadFile, File
 import base64
 from pydub import AudioSegment
-import uvicorn
+
 
 
 app = FastAPI()
@@ -33,8 +30,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-class model_input(BaseModel):
-    msg: str
+
 
 lemmatizer = WordNetLemmatizer()
 
@@ -271,6 +267,4 @@ async def process_medi_message(file: UploadFile = File(...)):
     return JSONResponse(content=response_data)
 
 
-if __name__ == "__main__":
-    uvicorn.run("Main_Chatbot_API:app", port=8000, reload=True)
     
