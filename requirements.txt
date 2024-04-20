@@ -12,3 +12,4 @@ tensorflow
 pydub
 SpeechRecognition
 gtts
+python-multipart
