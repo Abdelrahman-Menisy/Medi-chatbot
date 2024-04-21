@@ -216,28 +216,6 @@ def process_voice_to_text_message(audio_data):
         raise HTTPException(status_code=500, detail=f"Speech recognition service error: {str(e)}")
 
     
-def convert_to_wav(source_file, destination_file="converted.wav"):
-  """
-  Converts an audio file to WAV format using pydub.
-
-  Args:
-      source_file (str): Path to the source audio file.
-      destination_file (str, optional): Path to the output WAV file. Defaults to "converted.wav"
-  """
-  
-  try:
-    # Load the audio file
-    audio = AudioSegment.from_file(source_file)
-    
-    # Convert to WAV format
-    audio.export(destination_file, format="wav")
-    
-    return destination_file
-
-  except Exception as e:
-    raise HTTPException(status_code=500, detail=f"Error converting audio: {str(e)}")
-
-
 @app.post("/medi_message")
 async def process_medi_message(file: UploadFile = File(...)):
 
@@ -256,13 +234,7 @@ async def process_medi_message(file: UploadFile = File(...)):
                 audio_data = await file.read()
                 
             else:
-                 # Save the uploaded file
-                with open(file.filename, "wb") as f:
-                    f.write(await file.read())
-                destination_file = convert_to_wav(file.filename)
-                # Process audio file
-                with open(destination_file, "rb") as f:
-                    audio_data = f.read()
+		raise HTTPException(status_code=500, detail=f"erro, file must be in format WAV: {str(e)}")
             
             
             text_message =  process_voice_to_text_message(audio_data)
