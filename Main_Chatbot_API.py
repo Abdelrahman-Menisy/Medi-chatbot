@@ -19,7 +19,7 @@ from fastapi import FastAPI, HTTPException, UploadFile, File
 import base64
 import io
 from pydub import AudioSegment
-import uvicorn
+
 
 
 app = FastAPI()
@@ -286,6 +286,5 @@ async def process_medi_message(file: UploadFile = File(...)):
     return JSONResponse(content=response_data)
 
 
-if __name__ == "__main__":
-    uvicorn.run("Main_Chatbot_API:app", port=8000, reload=True)
+
     
