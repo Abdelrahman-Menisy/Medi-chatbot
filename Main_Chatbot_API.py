@@ -12,17 +12,13 @@ from fastapi.responses import FileResponse, StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
 nltk.download('wordnet')
 nltk.download('punkt')
-# import translators as ts
-# from langdetect import detect
 import speech_recognition as sr
 from gtts import gTTS
 from fastapi import FastAPI, HTTPException, UploadFile, File
 import base64
 import io
-# import tempfile
-# import os
 from pydub import AudioSegment
-import uvicorn
+
 
 
 app = FastAPI()
@@ -280,7 +276,7 @@ async def process_medi_message(file: UploadFile = File(...)):
 
     try:
         
-        # Convert to WAV format
+        # Check WAV format
         if file.filename.endswith('.wav'):
             audio_data = await file.read()
             text_message =  process_voice_to_text_message(audio_data)
@@ -309,6 +305,5 @@ async def process_medi_message(file: UploadFile = File(...)):
     return JSONResponse(content=response_data)
 
 
-if __name__ == "__main__":
-    uvicorn.run("Main_Chatbot_API:app", port=8000, reload=True)
+
     
