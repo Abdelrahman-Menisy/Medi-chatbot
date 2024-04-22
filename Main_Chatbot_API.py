@@ -230,12 +230,14 @@ async def process_medi_message(file: UploadFile = File(...)):
             
         elif file_type == "audio":
             # Convert to WAV format
-            try:
                 if file.filename.endswith('.wav'):
                     audio_data = await file.read()
+                    text_message =  process_voice_to_text_message(audio_data)
+                    text_response = process_text_message(text_message)
+                    voice_response = text_to_speech(text_response)
                     
-            except Exception as e:
-                raise HTTPException(status_code=500, detail=f"Error, file must in format WAV: {str(e)}")
+                else:
+                    raise HTTPException(status_code=500, detail=f"Error, file must in format WAV")
             
             
             text_message =  process_voice_to_text_message(audio_data)
