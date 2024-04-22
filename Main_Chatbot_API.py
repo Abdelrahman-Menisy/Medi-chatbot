@@ -6,9 +6,7 @@ from nltk.stem import WordNetLemmatizer
 from keras.models import load_model
 import numpy as np
 from fastapi import FastAPI
-from pydantic import BaseModel
 from fastapi.responses import JSONResponse
-from fastapi.responses import FileResponse, StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
 nltk.download('wordnet')
 nltk.download('punkt')
@@ -33,8 +31,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-class model_input(BaseModel):
-    msg: str 
+
     
 lemmatizer = WordNetLemmatizer()
 
@@ -158,33 +155,6 @@ def text_to_speech(text):
   output.save(file_name)
   return file_name
 
-# def check_file_type(file: UploadFile) -> str:
-#   """
-#   Checks the content type of the uploaded file.
-
-#   Args:
-#       file (UploadFile): The uploaded file as a FastAPI UploadFile object.
-
-#   Returns:
-#       str: The file type ("text" or "audio").
-
-#   Raises:
-#       HTTPException: If the file type is not supported.
-#   """
-
-#   # Check the content type of the file
-#   if file.content_type is not None:
-#     content_type = file.content_type.lower()
-
-#     # Determine the file type
-#     if content_type in ["text/plain", "text/csv"]:
-#         return "text"
-#     elif content_type in ["audio/mpeg", "audio/wav", "audio/ogg"]:
-#         return "audio"
-#     else:
-#         raise HTTPException(status_code=415, detail="Unsupported file type. Only text or audio files allowed.")
-#   else:
-#     raise HTTPException(status_code=400, detail="No file uploaded.")
 
 
 def process_voice_to_text_message(audio_data):
@@ -214,60 +184,34 @@ def process_voice_to_text_message(audio_data):
     except sr.RequestError as e:
         raise HTTPException(status_code=500, detail=f"Speech recognition service error: {str(e)}")
 
-    
-def convert_to_wav(source_file, destination_file="converted.wav"):
-  """
-  Converts an audio file to WAV format using pydub.
-
-  Args:
-      source_file (str): Path to the source audio file.
-      destination_file (str, optional): Path to the output WAV file. Defaults to "converted.wav"
-  """
-  
-  try:
-    # Load the audio file
-    audio = AudioSegment.from_file(source_file)
-    
-    # Convert to WAV format
-    audio.export(destination_file, format="wav")
-    
-    return destination_file
-
-  except Exception as e:
-    raise HTTPException(status_code=500, detail=f"Error converting audio: {str(e)}")
-
 
 
 
 @app.post("/medi_text")
-async def process_medi_message(user_message: model_input):
-    
+def process_medi_message(user_message: dict):
 
     try:
+        text_message = user_message.get('msg')
+        if not text_message:
+            raise HTTPException(status_code=400, detail="Message 'msg' not found in request body.")
         
-        text_message = user_message.msg
         text_response = process_text_message(text_message)
         voice_response = text_to_speech(text_response)
         
-        
-    except HTTPException as e:
+    except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
-    
-    
+
     # Combine text and audio into a single JSON response
     response_data = {"user_message": text_message, "text_response": text_response, "voice_response": voice_response}
-    
+
     # Encode the audio data
     with open(voice_response, "rb") as f:
         encoded_content = base64.b64encode(f.read()).decode("utf-8")
-    
-    
+
     # Combine text and audio into a single JSON response
     response_data = {"user_message": text_message, "text_response": text_response, "voice_response": encoded_content}
-        
-    
-    return JSONResponse(content=response_data)
 
+    return response_data
 
 
 @app.post("/medi_voice")
