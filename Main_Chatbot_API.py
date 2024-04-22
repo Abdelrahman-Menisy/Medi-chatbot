@@ -238,11 +238,8 @@ async def process_medi_message(file: UploadFile = File(...)):
                     
                 else:
                     raise HTTPException(status_code=500, detail=f"Error, file must in format WAV")
+
             
-            
-            text_message =  process_voice_to_text_message(audio_data)
-            text_response = process_text_message(text_message)
-            voice_response = text_to_speech(text_response)
             
     except HTTPException as e:
         raise HTTPException(status_code=500, detail=str(e))
