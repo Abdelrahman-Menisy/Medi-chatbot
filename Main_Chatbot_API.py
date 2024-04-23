@@ -180,9 +180,9 @@ def process_voice_to_text_message(audio_data):
         text = recognizer.recognize_google(audio_data, language='en')
         return text
     except sr.UnknownValueError:
-        raise HTTPException(status_code=400, msg="Unable to recognize speech")
+        raise HTTPException(status_code=400, detail="Unable to recognize speech")
     except sr.RequestError as e:
-        raise HTTPException(status_code=500, msg=f"Speech recognition service error: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Speech recognition service error: {str(e)}")
 
 
 
@@ -193,13 +193,13 @@ def process_medi_message(user_message: dict):
     try:
         text_message = user_message.get('msg')
         if not text_message:
-            raise HTTPException(status_code=400, msg="Message 'msg' not found in request body.")
+            raise HTTPException(status_code=400, detail="Message 'msg' not found in request body.")
         
         text_response = process_text_message(text_message)
         voice_response = text_to_speech(text_response)
         
     except Exception as e:
-        raise HTTPException(status_code=500, msg=str(e))
+        raise HTTPException(status_code=500, detail=str(e))
 
     # Combine text and audio into a single JSON response
     response_data = {"user_message": text_message, "text_response": text_response, "voice_response": voice_response}
@@ -228,12 +228,12 @@ async def process_medi_message(file: UploadFile = File(...)):
             voice_response = text_to_speech(text_response)
             
         else:
-            raise HTTPException(status_code=500, msg=f"Error, file must in format WAV")
+            raise HTTPException(status_code=500, detail=f"Error, file must in format WAV")
 
             
             
     except HTTPException as e:
-        raise HTTPException(status_code=500, msg=str(e))
+        raise HTTPException(status_code=500, detail=str(e))
     
     
     
