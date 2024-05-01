@@ -36,11 +36,11 @@ app.add_middleware(
 lemmatizer = WordNetLemmatizer()
 
 
-intents = json.loads(open("intents (1).json").read())
+intents = json.loads(open("intents.json").read())
  
-words = pickle.load(open(r"words (1).pkl", 'rb'))
-classes = pickle.load(open(r"classes (1).pkl", 'rb'))
-model = load_model(r"chatbot_model_1.h5")
+words = pickle.load(open(r"words.pkl", 'rb'))
+classes = pickle.load(open(r"classes.pkl", 'rb'))
+model = load_model(r"chatbot_model_v2.h5")
 
 
 def clean_up_sentence(sentence):
