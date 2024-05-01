@@ -1,7 +1,7 @@
 fastapi
 uvicorn
 pydantic
-pickle5
+pickledb
 numpy
 nltk
 keras.models
