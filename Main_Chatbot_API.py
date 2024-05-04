@@ -15,7 +15,7 @@ from gtts import gTTS
 from fastapi import FastAPI, HTTPException, UploadFile, File
 import base64
 import io
-from pydub import AudioSegment
+
 
 
 
