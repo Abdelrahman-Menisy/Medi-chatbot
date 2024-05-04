@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+pydantic
+pickledb
+numpy
+nltk
+keras.models
+fastapi.responses
+googletrans
+langdetect
+tensorflow
+pydub
+SpeechRecognition
+gtts
+python-multipart
+ffmpeg
