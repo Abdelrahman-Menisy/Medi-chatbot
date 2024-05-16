@@ -184,9 +184,9 @@ def process_voice_to_text_message(audio_data):
         text = recognizer.recognize_google(audio_data, language='en')
         return text
     except sr.UnknownValueError:
-        return "Unable to recognize speech"
+        return {"text_response": "Unable to recognize speech"}
     except sr.RequestError as e:
-        return f"Speech recognition service error: {str(e)}"
+        return {"text_response":"Speech recognition service error, check your internet connection"}
 
 
 
@@ -197,13 +197,13 @@ def process_medi_message(user_message: model_input):
     try:
         text_message = user_message.msg.lower()
         if not text_message:
-            return {"error": "No message provided"}
+            return {"text_response": "No message provided"}
         
         text_response = process_text_message(text_message)
         voice_response = text_to_speech(text_response)
         
     except Exception as e:
-        return f"Error: {str(e)}"
+        return {"text_response": str(e)}
 
     # Combine text and audio into a single JSON response
     response_data = {"user_message": text_message, "text_response": text_response, "voice_response": voice_response}
@@ -232,12 +232,12 @@ async def process_medi_message(file: UploadFile = File(...)):
             voice_response = text_to_speech(text_response)
             
         else:
-            return "Error, file must in format WAV"
+            return {"text_response":"file must in format WAV"}
 
             
             
     except HTTPException as e:
-        return f"Error: {str(e)}"
+        return {"text_response": str(e)}
     
     
     
