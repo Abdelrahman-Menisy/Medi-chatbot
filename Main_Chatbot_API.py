@@ -42,8 +42,8 @@ lemmatizer = WordNetLemmatizer()
 
 intents = json.loads(open(r"intents.json").read())
  
-words = pickle.load(open(r"words.pkl", 'rb'))
-classes = pickle.load(open(r"classes.pkl", 'rb'))
+words = pickle.load(open(r"words_v4.pkl", 'rb'))
+classes = pickle.load(open(r"classes_v4.pkl", 'rb'))
 
 
 
