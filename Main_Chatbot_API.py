@@ -18,7 +18,7 @@ nltk.download('punkt')
 
 
 model = tf.keras.models.load_model(
-    r"chatbot_model_v3.h5", custom_objects=None, compile=True, safe_mode=True
+    r"chatbot_model_v4.h5", custom_objects=None, compile=True, safe_mode=True
 )
 
 app = FastAPI()
