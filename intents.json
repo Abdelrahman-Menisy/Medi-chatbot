@@ -1,0 +1,3324 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Hi",
+        "How are you?",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "What's up",
+        "how are ya",
+        "heyy",
+        "whatsup",
+        "??? ??? ??",
+        "Hi, can you help me",
+        "Hey",
+        "Hiya",
+        "Howdy",
+        "Greetings",
+        "Hey there",
+        "Hi, how's it going?",
+        "Yo!",
+        "Hello, how can I assist?",
+        "Hi, what brings you here?",
+        "What's new?",
+        "Hiya!",
+        "Hey, how have you been?",
+        "Good day to you!",
+        "Hi, what's going on?",
+        "Hello, how's your day been?",
+        "Hey, long time no see!",
+        "Hi, nice to meet you!",
+        "Hi, what's new with you?",
+        "Hey, how's everything going?",
+        "Hello, how have you been doing?",
+        "Hey!",
+        "Hello there",
+        "Hi, is anyone available?",
+        "Hi, how are things?",
+        "Greetings, friend!",
+        "Good morning",
+        "Hi, how's your day?",
+        "Hey, good to see you!",
+        "Hola!",
+        "Hi, what's happening?",
+        "Hi, how's everything going?"
+      ],
+      "responses": [
+        "Hello!",
+        "Hey",
+        "What Can I do for you?",
+        "Good to see you again!",
+        "Hi there, how can I help?",
+        "Hey!",
+        "Hi!",
+        "How's it going?",
+        "Greetings!",
+        "Hello, good to see you!",
+        "Hey there, how can I help you today?",
+        "Yo! What's up?",
+        "Hi there, how can I assist you?",
+        "Hey, what's on your mind?",
+        "Hello! How can I assist you?",
+        "Hey!",
+        "Hello!",
+        "Hi, someone's here!",
+        "Hi, things are good. How about you?",
+        "Greetings!",
+        "Good morning! How can I assist?",
+        "Hi, it's going well. How about you?",
+        "Hey, it's great to see you too!",
+        "¡Hola!",
+        "Hey there, not much. How about you?",
+        "Hi, everything's going well. How about you?",
+        "Hiya!",
+        "Hey, I've been good. How about you?",
+        "Good day!",
+        "Hi there, not much. How about you?",
+        "Hello! My day's been going well, thank you.",
+        "Hey, it has been a while! How have you been?",
+        "Hi, likewise! How can I assist you today?",
+        "Hi, not much. What about you?",
+        "Hey, everything's going well here. How about you?",
+        "Hello, I've been doing well. How about you?"
+      ]
+    },
+
+
+    {
+      "tag": "AI",
+      "patterns": [
+        "what is the name of your AI developers",
+        "what is the name of your AI creators",
+        "what is the name of your Artificial Intelligence (AI) developers",
+        "what is the name of your Artificial Intelligence (AI) creators",
+        "what is the name of the machine learning developers",
+        "what is the name of the machine learning creators",
+        "who's your AI developers",
+        "your AI developers",
+        "your AI creators",
+        "who are your AI developers",
+        "AI developers",
+        "AI developer",
+        "Ai developers",
+        "Ai developer",
+        "ai developers",
+        "ai developer",
+        "ML developers",
+        "Ml developers",
+        "ML developer",
+        "Ml developer",
+        "ml developers",
+        "ml developer",
+        "AI creators",
+        "who's your AI developers",
+        "your Artificial Intelligence (AI) developers",
+        "your Artificial Intelligence (AI) creators",
+        "who are your Artificial Intelligence (AI) developers",
+        "Artificial Intelligence (AI) developers",
+        "Artificial Intelligence (AI) creators",
+        "who's your machine learning developers",
+        "your machine learning developers",
+        "your machine learning creators",
+        "who are your machine learning developers",
+        "machine learning developers",
+        "machine learning creators"
+      ],
+      "responses": [
+        "Abdelrahman Menisy"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "flutter",
+      "patterns": [
+        "what is the name of your application developers",
+        "what is the name of your application creators",
+        "what is the name of the flutter developers",
+        "what is the name of the flutter creators",
+        "who's your application developers",
+        "your application developers",
+        "your application creators",
+        "who are your application developers",
+        "application developers",
+        "application creators"
+      ],
+      "responses": [
+        "Mohamed Ghaly"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "backend",
+      "patterns": [
+        "what is the name of your backend developers",
+        "what is the name of your backend creators",
+        "what is the name of the backend developers",
+        "what is the name of the backend creators",
+        "who's your backend developers",
+        "your backend developers",
+        "your backend creators",
+        "who are your backend developers",
+        "backend developers",
+        "backend creators"
+      ],
+      "responses": [
+        "There isn't an actually backend"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "user_api",
+      "patterns": [
+        "what is the name of your user API developers",
+        "what is the name of your user API creators",
+        "what is the name of the user API developers",
+        "what is the name of the user API creators",
+        "who's your user API developers",
+        "your user API developers",
+        "your user API creators",
+        "who are your user API developers",
+        "user API developers",
+        "user API creators"
+      ],
+      "responses": [
+        "Saber elsayed"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "app_author",
+      "patterns": [
+        "what is the name of the author",
+        "who's the author of this project",
+        "your project author",
+        "author project"
+      ],
+      "responses": [
+        "Nour"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "name",
+      "patterns": [
+        "name",
+        "your name",
+        "do you have a name",
+        "what are you called",
+        "what is your name",
+        "what should I call you",
+        "whats your name?",
+        "what are you",
+        "who are you",
+        "who is this",
+        "what am i chatting to",
+        "who am i taking to",
+        "Are you a robot?",
+        "Are you an AI?"
+      ],
+      "responses": [
+        "You can call me medi.",
+        "I'm medi",
+        "I am 'medi', a Chatbot."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "advanced",
+      "patterns": [
+        "I'm tired",
+        "I've been feeling exhausted lately.",
+        "I'm constantly feeling fatigued.",
+        "I'm experiencing a lack of energy.",
+        "I feel drained all the time.",
+        "I'm struggling with tiredness.",
+        "I'm feeling worn out and lethargic.",
+        "I'm finding it hard to stay awake.",
+        "I'm experiencing persistent tiredness.",
+        "I'm feeling weak and weary.",
+        "I'm experiencing extreme fatigue.",
+        "I feel like I have no energy left.",
+        "I'm constantly feeling drained and exhausted.",
+        "I'm struggling to stay awake during the day.",
+        "I'm experiencing overwhelming fatigue.",
+        "I'm finding it hard to concentrate due to tiredness.",
+        "I'm feeling physically and mentally exhausted.",
+        "I'm having trouble getting out of bed in the morning.",
+        "I'm feeling run-down and exhausted.",
+        "I'm experiencing fatigue that doesn't seem to go away.",
+        "I'm feeling sluggish and lethargic.",
+        "give me an advice.",
+        "can you give me an advice.",
+        "give me a medical advice.",
+        "I'm angry",
+        "I'm nervous"
+
+
+      ],
+      "responses": [
+        "I'm sorry to hear that you're feeling tired. Fatigue can be caused by various factors such as sleep deprivation, stress, or underlying medical conditions. It's important to prioritize rest and relaxation. Would you like me to provide some tips for managing fatigue?",
+        "Feeling tired can be a sign of both physical and mental exhaustion. Have you been getting enough sleep lately? Maintaining a regular sleep schedule and practicing relaxation techniques like deep breathing or meditation may help improve your energy levels.",
+        "Persistent fatigue can sometimes indicate an underlying health issue. It's advisable to consult with a healthcare professional if your tiredness persists or if you're experiencing other symptoms alongside it. Would you like assistance in finding a healthcare provider?",
+        "Fatigue can also be linked to lifestyle factors such as diet and exercise. Consuming a balanced diet rich in nutrients and engaging in regular physical activity can help boost your energy levels. Would you like some suggestions for healthy lifestyle changes?",
+        "I understand how challenging it can be to cope with fatigue. It's essential to listen to your body and take breaks when needed. Remember to prioritize self-care and seek support from friends, family, or a healthcare professional if you're feeling overwhelmed.",
+        "If you're experiencing persistent tiredness despite making lifestyle changes, it's important to rule out any underlying medical conditions. I can provide information on common causes of fatigue, but consulting with a healthcare provider for a personalized assessment would be advisable.",
+        "Fatigue can affect various aspects of your life, including your mood and productivity. Taking steps to manage stress, such as practicing relaxation techniques or seeking support from a therapist, can help alleviate fatigue-related symptoms. Would you like resources for stress management?",
+        "In addition to physical factors, emotional well-being plays a significant role in managing fatigue. Engaging in activities that bring you joy and practicing self-care can help improve your overall energy levels. Would you like suggestions for self-care practices?",
+        "Fatigue can sometimes be a symptom of an underlying medical condition such as anemia, thyroid disorders, or sleep disorders. If you're experiencing persistent tiredness, it's important to discuss your symptoms with a healthcare professional for proper evaluation and management.",
+        "It's common to experience fluctuations in energy levels throughout the day, but if you're consistently feeling tired despite adequate rest, it may be worth exploring potential causes. I'm here to provide information and support as you navigate your health journey."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "advice",
+      "patterns": [
+        "give me an advice.",
+        "can you give me an advice.",
+        "give me a medical advice.",
+        "I'm looking for some advice on managing my symptoms.",
+        "Can you provide me with advice on improving my overall health?",
+        "I need advice on how to deal with stress and anxiety.",
+        "Could you give me some advice on maintaining a healthy diet?",
+        "I'm seeking advice on finding the right healthcare provider.",
+        "Do you have any advice on staying motivated to exercise regularly?",
+        "I'm interested in advice for improving my sleep quality.",
+        "Can you offer me advice on managing chronic pain?",
+        "I'm looking for advice on coping with a recent diagnosis.",
+        "Could you give me advice on quitting smoking?"
+      ],
+      "responses": [
+        "Of course! I'd be happy to provide advice on managing your symptoms. Could you please specify which symptoms you're experiencing?",
+        "Absolutely. Improving your overall health starts with small, achievable steps. I can offer personalized advice based on your specific health goals. What aspect of your health would you like to focus on first?",
+        "Managing stress and anxiety is essential for both physical and mental well-being. I can offer advice on relaxation techniques, mindfulness practices, and stress management strategies. Would you like to explore some coping mechanisms?",
+        "Maintaining a healthy diet is key to supporting your overall health. I can provide advice on nutrition, meal planning, and making healthier food choices. Would you like some tips for creating a balanced diet?",
+        "Finding the right healthcare provider is important for receiving quality care. I can offer advice on factors to consider when choosing a healthcare provider, as well as tips for scheduling appointments and preparing for visits. Would you like assistance in finding a healthcare provider?",
+        "Staying motivated to exercise regularly can be challenging, but it's essential for maintaining your health. I can provide advice on setting realistic fitness goals, finding activities you enjoy, and staying accountable. Would you like some tips for staying motivated?",
+        "Improving your sleep quality is crucial for overall health and well-being. I can offer advice on creating a bedtime routine, optimizing your sleep environment, and addressing common sleep disturbances. Would you like some strategies for improving your sleep?",
+        "Managing chronic pain requires a comprehensive approach that may include lifestyle modifications, pain management techniques, and medical treatments. I can offer advice on pain management strategies and coping mechanisms. Would you like to explore some options?",
+        "Coping with a recent diagnosis can be overwhelming, but you're not alone. I can provide advice on navigating your healthcare journey, accessing support resources, and coping with emotional challenges. Would you like assistance in finding support groups or counseling services?",
+        "Quitting smoking is a significant step towards improving your health and quality of life. I can offer advice on creating a quit plan, managing nicotine withdrawal symptoms, and staying smoke-free. Would you like some tips for quitting smoking?"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "random",
+      "patterns": [
+        "I love you",
+        "Will you marry me",
+        "Do you love me",
+        "What's your favorite color?",
+        "Tell me a joke",
+        "Can you sing?",
+        "Do you have any siblings?",
+        "Where are you from?",
+        "How old are you?",
+        "What's the meaning of life?",
+        "What's your favorite movie?",
+        "Can you dance?",
+        "Do you dream?",
+        "What's the weather like today?",
+        "Can you tell me a secret?",
+        "Do you believe in ghosts?",
+        "What do you do for fun?",
+        "Can you do magic?",
+        "What's your favorite food?",
+        "Can you tell me a story?",
+        "Do you like music?",
+        "Can you solve a riddle?",
+        "Can you cook?",
+        "What's your favorite book?",
+        "Can you tell me about yourself?",
+        "Do you have any pets?",
+        "Who is the president of?",
+        "Current president of",
+        "president",
+        "President of",
+        "Who leads ?",
+        "Leader of ",
+        "Head of state in ",
+        "current leader",
+        "Who is in charge of ",
+        "Current ruler of ",
+        "Who is the best footballer?",
+        "Greatest football player",
+        "Top footballer",
+        "Who is the GOAT in football?",
+        "Best soccer player of all time",
+        "Legendary footballer",
+        "Who is the greatest in football?",
+        "Football icon",
+        "who is",
+        "who's",
+        "i want to go to bathroom",
+        "i want to go to kitchen",
+        "i want to go to hall",
+        "kitchen",
+        "bathroom",
+        "hall",
+        "bedroom",
+        "i,'m thirsty",
+        "lions",
+        "giraffe?",
+        "elephants",
+        "tigers",
+        "pandas?",
+        "dolphins",
+        "kangaroo",
+        "cheetahs",
+        "polar bear",
+        "wolves",
+        "zebras",
+        "penguins?",
+        "rhinoceros",
+        "gorillas",
+        "koalas?",
+        "seals",
+        "hippopotamus",
+        "crocodiles",
+        "grizzly bear",
+        "foxes",
+        "Dogs",
+        "Cats",
+        "Fish",
+        "(such",
+        "as",
+        "goldfish",
+        "or",
+        "betta",
+        "fish)",
+        "Birds",
+        "(such",
+        "as",
+        "parrots",
+        "or",
+        "canaries)",
+        "Rabbits",
+        "Guinea",
+        "pigs",
+        "Hamsters",
+        "Gerbils",
+        "Mice",
+        "Rats",
+        "Ferrets",
+        "turtles",
+        "snake",
+        "frogs",
+        "I'm hungry",
+        "I am hungry",
+        "Feeling hungry",
+        "Starving",
+        "Need food",
+        "Hungry now",
+        "I haven't eaten all day.",
+        "My stomach is growling.",
+        "I could really go for a meal right now.",
+        "I'm feeling famished.",
+        "I'm craving something delicious.",
+        "I need to grab a bite to eat.",
+        "I'm starting to feel weak from hunger.",
+        "I'm so hungry I could eat anything.",
+        "I skipped breakfast, and now I'm starving.",
+        "I'm getting hangry (hungry + angry)!",
+        "joke",
+        "tell me a joke",
+        "can you say a joke",
+        "can you tell a joke",
+        "I want to cook",
+        "Let's make something",
+        "Cooking tonight",
+        "Looking for recipes",
+        "Need cooking ideas",
+        "What's for dinner?",
+        "How do I cook [dish]?",
+        "Recipe for [dish]",
+        "Cooking tips",
+        "Cooking techniques",
+        "Baby",
+        "Newborn",
+        "Infant",
+        "Toddler",
+        "Baby's health",
+        "Baby care",
+        "Baby development",
+        "Caring for a baby",
+        "Babies' needs",
+        "Parenting a baby",
+        "Becoming a parent",
+        "Sports channels",
+        "What sports channels do you offer?",
+        "List of sports channels",
+        "Sports channel lineup",
+        "Sports channel guide",
+        "Favorite sports channels",
+        "Popular sports channels",
+        "Live sports channels",
+        "HD sports channels",
+        "TV channels",
+        "What TV channels do you have?",
+        "List of TV channels",
+        "TV channel lineup",
+        "TV channel guide",
+        "Favorite TV channels",
+        "Popular TV channels",
+        "Local TV channels",
+        "International TV channels",
+        "bein sports",
+        "sky sports",
+        "sky channel",
+        "AD sports",
+        "ad sports",
+        "on time sport",
+        "Al AHLY TV",
+        "soccer",
+        "basketball",
+        "tennis",
+        "baseball",
+        "golf",
+        "running",
+        "volleyball",
+        "badminton",
+        "swimming",
+        "boxing",
+        "table",
+        "tennis",
+        "skiing",
+        "ice",
+        "skating",
+        "roller skating",
+        "cricket",
+        "rugby",
+        "pool",
+        "darts",
+        "football",
+        "bowling",
+        "ice",
+        "hockey",
+        "surfing",
+        "karate",
+        "horse",
+        "racing",
+        "snowboarding",
+        "skateboarding",
+        "cycling",
+        "archery",
+        "fishing",
+        "gymnastics",
+        "figure",
+        "skating",
+        "rock",
+        "climbing",
+        "sumo",
+        "wrestling",
+        "taekwondo",
+        "fencing water",
+        "skiing",
+        "jet skiing",
+        "weight",
+        "lifting",
+        "scuba",
+        "diving",
+        "judo",
+        "wind",
+        "surfing",
+        "kickboxing",
+        "sky diving",
+        "hang",
+        "gliding",
+        "bungee",
+        "jumping",
+        "lacrosse",
+        "polo",
+        "wrestling",
+        "squash",
+        "handball",
+        "rowing",
+        "sailing",
+        "kitesurfing",
+        "triathlon",
+        "paddleboarding",
+        "ultimate",
+        "frisbee",
+        "hiking",
+        "canoeing/kayaking",
+        "cross-country skiing",
+        "mixed",
+        "martial",
+        "arts",
+        "(MMA)",
+        "paragliding",
+        "equestrian",
+        "(Show",
+        "Jumping/Dressage/Eventing)",
+        "synchronized",
+        "Swimming",
+        "snowmobiling",
+        "biathlon",
+        "curling",
+        "racquetball",
+        "parkour",
+        "capoeira",
+        "lacrosse",
+        "snooker",
+        "aerobics",
+        "bobsledding",
+        "motocross",
+        "triathlon",
+        "kendo",
+        "decathlon",
+        "orienteering",
+        "speed skating",
+        "what are the four basic math operations",
+        "what are the four main operations in math",
+        "list the four fundamental operations in mathematics",
+        "add, subtract, multiply, divide - what are these called",
+        "what is the difference between addition and subtraction",
+        "multiplication is like what",
+        "explain division",
+        "plus, minus, times, divided by - what do they do",
+        "what do we use for adding numbers",
+        "what symbol is used to subtract",
+        "how do we multiply",
+        "division symbol",
+        "sum of",
+        "sub of",
+        "multi of",
+        "div of",
+        "division of",
+        "multiply of",
+        "add of",
+        "subtract of",
+        "what is programming",
+        "what can you do with programming",
+        "explain computer programming",
+        "what is a programming language",
+        "difference between programming language and code",
+        "what are variables in programming",
+        "what does a loop do in programming",
+        "explain functions in programming",
+        "if statements in programming",
+        "what is an if else statement",
+        "how to write basic code",
+        "what is geography",
+        "what are the continents",
+        "explain the different types of maps",
+        "what is latitude and longitude",
+        "major mountain ranges of the world",
+        "largest rivers in the world",
+        "interesting geographical features",
+        "what is the difference between climate and weather",
+        "importance of studying geography",
+        "major events in world history",
+        "who were the ancient civilizations",
+        "what is the Cold War",
+        "explain World War II",
+        "famous historical figures",
+        "important events in US history",
+        "American Revolution key figures",
+        "what is the Civil War",
+        "explain the US Constitution",
+        "major US presidents",
+        "important events in egypt history",
+        "egyptian Revolution key figures",
+        "what is the Civil War",
+        "explain the egy Constitution",
+        "major egypt presidents",
+        "how do I debug my code",
+        "what libraries do you support",
+        "my code is not working",
+        "where can I find documentation",
+        "I have a question about Python syntax",
+        "python",
+        "c++",
+        "cpp",
+        "c",
+        "c#",
+        "flutter",
+        "dart",
+        "kotlin",
+        "html",
+        "css",
+        "javascript",
+        "java",
+        "react",
+        "angular",
+        "Ruby",
+        "php",
+        "nodejs",
+        "laravel",
+        "anything about your company",
+        "what services do you offer",
+        "how do I use your product",
+        "what are your pricing plans",
+        "is there a warranty on your product",
+        "where can I find your shipping policy",
+        "what is the weather like today",
+        "translate this to Spanish: how are you",
+        "play a song",
+        "tell me a fun fact",
+        "share something interesting",
+        "make me laugh",
+        "how to learn python",
+        "python tutorial for beginners",
+        "explain variables in python",
+        "what is a loop in python",
+        "find me a restaurant",
+        "what restaurants are nearby",
+        "I'm craving",
+        "vegetarian restaurants near me",
+        "What's the weather like today?",
+        "Remind me to buy milk",
+        "Open a new document",
+        "recommend a new phone for me",
+        "what laptop should I buy",
+        "write me a poem about a robot falling in love",
+        "generate a movie script with a time travel twist",
+        "create a news article in a satirical style about a cat running for mayor",
+        "What's the temperature in this room?",
+        "Turn on the lights in the living room",
+        "Translate this message to the language spoken in Universe X-123",
+        "What is the weather like on planet Zork in the Andromeda Galaxy?",
+        "galaxy",
+        "universe",
+        "tell me about chocolate",
+        "what are some popular chocolate brands?",
+        "which country is known for chocolate?",
+        "Ferrero Rocher",
+        "Hershey's",
+        "Godiva Chocolatier",
+        "Lindt & Sprüngli",
+        "Toblerone",
+        "Nestlé",
+        "Mars",
+        "hohos",
+        "cadbury",
+        "dairy milk",
+        "mandolin",
+        "twinks",
+        "redbull",
+        "pepsi",
+        "coca cola",
+        "sena cola",
+        "volt soda",
+        "real madrid",
+        "Spain",
+        "La Liga",
+        "league",
+        "country",
+        "Manchester United",
+        "Premier League",
+        "England",
+        "Liverpool",
+        "Bayern Munich",
+        "Germany",
+        "Bundesliga",
+        "Paris Saint-Germain",
+        "France",
+        "Ligue 1",
+        "Juventus",
+        "Italy",
+        "Serie A",
+        "AC Milan",
+        "Manchester City",
+        "Chelsea",
+        "Borussia Dortmund",
+        "Ajax Amsterdam",
+        "Netherlands",
+        "Eredivisie",
+        "PSV Eindhoven",
+        "FC Porto",
+        "Portugal",
+        "Primeira Liga",
+        "Sporting CP",
+        "FC Zenit Saint Petersburg",
+        "Russia",
+        "Russian Premier League",
+        "Spartak Moscow",
+        "Boca Juniors",
+        "Argentina",
+        "Argentine Primera División",
+        "River Plate",
+        "FC Barcelona",
+        "Atlético Madrid",
+        "Olympique de Marseille",
+        "Liverpool",
+        "Alahly",
+        "zamalek",
+        "masry",
+        "egyptian premier league",
+        "Lionel Messi",
+        "Cristiano Ronaldo",
+        "Neymar Jr.",
+        "Kylian Mbappé",
+        "Robert Lewandowski",
+        "Mohamed Salah",
+        "Kevin De Bruyne",
+        "Virgil van Dijk",
+        "Sadio Mané",
+        "Harry Kane",
+        "Zlatan Ibrahimovic",
+        "Gareth Bale",
+        "Sergio Ramos",
+        "Luka Modric",
+        "Erling Haaland",
+        "Luis Suárez",
+        "Paulo Dybala",
+        "Raheem Sterling",
+        "Manuel Neuer",
+        "Antoine Griezmann",
+        "Karim Benzema",
+        "Thiago Alcantara",
+        "Edinson Cavani",
+        "Marco Reus",
+        "Bruno Fernandes",
+        "Angel Di Maria",
+        "Thomas Müller",
+        "João Félix",
+        "Marcus Rashford",
+        "Germany",
+        "France",
+        "Spain",
+        "Italy",
+        "United Kingdom",
+        "Netherlands",
+        "Belgium",
+        "Portugal",
+        "Switzerland",
+        "Sweden",
+        "Poland",
+        "Austria",
+        "Norway",
+        "Denmark",
+        "Finland",
+        "Greece",
+        "Czech Republic",
+        "Ireland",
+        "Romania",
+        "Hungary",
+        "Al Ahly",
+        "Al Hilal",
+        "Zamalek SC",
+        "Al Nassr",
+        "Esperance de Tunis",
+        "Al Ittihad",
+        "Wydad Casablanca",
+        "Al Ahli Jeddah",
+        "Al Sadd",
+        "Al Ain FC",
+        "Algeria",
+        "Algiers",
+        "North Africa",
+        "Bahrain",
+        "Manama",
+        "Western Asia",
+        "Comoros",
+        "Moroni",
+        "East Africa",
+        "Djibouti",
+        "Djibouti City",
+        "East Africa",
+        "Egypt",
+        "Cairo",
+        "North Africa",
+        "Iraq",
+        "Baghdad",
+        "Western Asia",
+        "Jordan",
+        "Amman",
+        "Western Asia",
+        "Kuwait",
+        "Kuwait City",
+        "Western Asia",
+        "Lebanon",
+        "Beirut",
+        "Western Asia",
+        "Libya",
+        "Tripoli",
+        "North Africa",
+        "Morocco",
+        "Rabat",
+        "North Africa",
+        "Oman",
+        "Muscat",
+        "Western Asia",
+        "Palestine",
+        "Jerusalem (claimed)",
+        "Western Asia",
+        "Qatar",
+        "Doha",
+        "Western Asia",
+        "Saudi Arabia",
+        "Riyadh",
+        "Afghanistan",
+        "Armenia",
+        "Azerbaijan",
+        "Bahrain",
+        "Bangladesh",
+        "Bhutan",
+        "Brunei",
+        "Cambodia",
+        "China",
+        "Cyprus",
+        "Georgia",
+        "India",
+        "Indonesia",
+        "Iran",
+        "Iraq",
+        "Israel",
+        "Japan",
+        "Jordan",
+        "Kazakhstan",
+        "Kuwait",
+        "Kyrgyzstan",
+        "Laos",
+        "Lebanon",
+        "Malaysia",
+        "Maldives",
+        "Mongolia",
+        "Myanmar",
+        "Nepal",
+        "North Korea",
+        "Oman",
+        "Pakistan",
+        "Palestine",
+        "Philippines",
+        "Qatar",
+        "Saudi Arabia",
+        "Singapore",
+        "South Korea",
+        "Sri Lanka",
+        "Syria",
+        "Taiwan",
+        "Tajikistan",
+        "Thailand",
+        "Timor-Leste",
+        "Turkey",
+        "Turkmenistan",
+        "United Arab Emirates",
+        "Uzbekistan",
+        "Vietnam",
+        "Yemen",
+        "Algeria",
+        "Angola",
+        "Benin",
+        "Botswana",
+        "Burkina Faso",
+        "Burundi",
+        "Cabo Verde",
+        "Cameroon",
+        "Central African Republic",
+        "Chad",
+        "Comoros",
+        "Democratic Republic of the Congo",
+        "Republic of the Congo",
+        "Djibouti",
+        "Egypt",
+        "Equatorial Guinea",
+        "Eritrea",
+        "Eswatini",
+        "Ethiopia",
+        "Gabon",
+        "Gambia",
+        "Ghana",
+        "Guinea",
+        "Guinea-Bissau",
+        "Ivory Coast",
+        "Kenya",
+        "Lesotho",
+        "Liberia",
+        "Libya",
+        "Madagascar",
+        "Malawi",
+        "Mali",
+        "Mauritania",
+        "Mauritius",
+        "Morocco",
+        "Mozambique",
+        "Namibia",
+        "Niger",
+        "Nigeria",
+        "Rwanda",
+        "São Tomé and Príncipe",
+        "Senegal",
+        "Seychelles",
+        "Sierra Leone",
+        "Somalia",
+        "South Africa",
+        "South Sudan",
+        "Sudan",
+        "Tanzania",
+        "Togo",
+        "Tunisia",
+        "Uganda",
+        "Zambia",
+        "Zimbabwe",
+        "Canada",
+        "United States",
+        "Mexico",
+        "Guatemala",
+        "Belize",
+        "El Salvador",
+        "Honduras",
+        "Nicaragua",
+        "Costa Rica",
+        "Panama",
+        "Cuba",
+        "Jamaica",
+        "Haiti",
+        "Dominican Republic",
+        "Bahamas",
+        "Trinidad and Tobago",
+        "Barbados",
+        "Saint Kitts and Nevis",
+        "Antigua and Barbuda",
+        "Saint Lucia",
+        "Saint Vincent and the Grenadines",
+        "Grenada",
+        "Dominica",
+        "Montserrat",
+        "Argentina",
+        "Bolivia",
+        "Brazil",
+        "Chile",
+        "Colombia",
+        "Ecuador",
+        "Guyana",
+        "Paraguay",
+        "Peru",
+        "Suriname",
+        "Uruguay",
+        "Venezuela",
+        "ABC",
+        "NBC",
+        "CBS",
+        "Fox",
+        "CNN",
+        "BBC",
+        "ESPN",
+        "HBO",
+        "Discovery Channel",
+        "National Geographic",
+        "History Channel",
+        "Cartoon Network",
+        "Disney Channel",
+        "MTV",
+        "TNT",
+        "Hulu",
+        "Netflix",
+        "Elon Musk",
+        "Oprah Winfrey",
+        "Barack Obama",
+        "Taylor Swift",
+        "Dwayne Johnson",
+        "Rihanna",
+        "Beyoncé",
+        "Cristiano Ronaldo",
+        "Kylie Jenner",
+        "Jeff Bezos",
+        "Kim Kardashian",
+        "LeBron James",
+        "Ellen DeGeneres",
+        "Mark Zuckerberg",
+        "Lionel Messi",
+        "Bill Gates",
+        "Angelina Jolie",
+        "Stephen Curry",
+        "Jennifer Lopez",
+        "Drake",
+        "Emma Watson",
+        "Robert Downey Jr.",
+        "Ariana Grande",
+        "Tom Hanks",
+        "Kanye West",
+        "Justin Bieber",
+        "Scarlett Johansson",
+        "Leonardo DiCaprio",
+        "Selena Gomez",
+        "Chris Hemsworth",
+        "Will Smith",
+        "Gal Gadot",
+        "Meryl Streep",
+        "Johnny Depp",
+        "Lady Gaga",
+        "Brad Pitt",
+        "Sandra Bullock",
+        "David Beckham",
+        "Katy Perry",
+        "Matt Damon",
+        "Jennifer Aniston",
+        "Chris Evans",
+        "Gigi Hadid",
+        "Tom Cruise",
+        "Adele",
+        "Jennifer Lawrence",
+        "Ryan Reynolds",
+        "Megan Fox",
+        "Hugh Jackman",
+        "Cameron Diaz",
+        "Robert Pattinson",
+        "Margot Robbie",
+        "Chris Pratt",
+        "Harrison Ford",
+        "Fairuz",
+        "Omar Sharif",
+        "Umm Kulthum",
+        "Amr Diab",
+        "Yasser Arafat",
+        "Naguib Mahfouz",
+        "Tawfiq al-Hakim",
+        "Hassan II of Morocco",
+        "Mohammed VI of Morocco",
+        "Sheikh Zayed bin Sultan Al Nahyan",
+        "Mohammed bin Rashid Al Maktoum",
+        "Queen Rania of Jordan",
+        "Najwa Karam",
+        "Assi El Helani",
+        "Ragheb Alama",
+        "Nancy Ajram",
+        "Tamer Hosny",
+        "Haifa Wehbe",
+        "Rola Saad",
+        "Mona Zaki",
+        "Amal Clooney",
+        "Mo Salah",
+        "Khalid bin Salman Al Saud",
+        "Mohammed bin Salman",
+        "Fayez al-Sarraj",
+        "Sami Yusuf",
+        "Mahmoud Darwish",
+        "Hassan Nasrallah",
+        "Yasser Al-Qahtani",
+        "Ali al-Habsi",
+        "Hassan al-Thawadi",
+        "Mansour bin Zayed Al Nahyan",
+        "Rashid bin Saeed Al Maktoum",
+        "Sheikh Hasina",
+        "King Abdullah II of Jordan",
+        "Rashid al-Ghannushi",
+        "Jamal Khashoggi",
+        "Tariq Ramadan",
+        "Rachid Taha",
+        "Mehdi Ben Barka",
+        "Yusuf Islam",
+        "Salma Hayek",
+        "Ahlam",
+        "Khaled Abdulrahman",
+        "Hoda Sultan",
+        "Wael Kfoury",
+        "Kadim Al Sahir",
+        "Elissa",
+        "Sherine",
+        "Majida El Roumi",
+        "Waad al-Kateab",
+        "Omar Al-Bashir",
+        "Moammar Gadhafi",
+        "Hafez al-Assad",
+        "Bashar al-Assad",
+        "Rima Fakih",
+        "Yasmine Hamdan",
+        "Nawal El Zoghbi",
+        "Mohammad Abdo",
+        "Asala Nasri",
+        "Ali Khamenei",
+        "Mahmoud Abbas",
+        "Khalifa bin Zayed Al Nahyan",
+        "Ahmed Zewail",
+        "Naguib Sawiris",
+        "Mohamed Salah",
+        "Mohamed Hadid",
+        "Mai Selim",
+        "Nabila Ebeid",
+        "Mena Massoud",
+        "Ramy Youssef",
+        "Bassem Youssef",
+        "Ahmed Helmy",
+        "Adel Emam",
+        "Amr Waked",
+        "Assala Nasri",
+        "Ramy Ayach",
+        "Zuhair Murad",
+        "Hassan Jameel",
+        "Randa Hafez",
+        "Ahmed Ezz",
+        "Cyrine Abdelnour",
+        "Carmen Lebbos",
+        "amir eid",
+        "Albert Einstein",
+        "Leonardo da Vinci",
+        "William Shakespeare",
+        "Nelson Mandela",
+        "Mahatma Gandhi",
+        "Abraham Lincoln",
+        "Winston Churchill",
+        "Cleopatra",
+        "Alexander the Great",
+        "Julius Caesar",
+        "Joan of Arc",
+        "Galileo Galilei",
+        "Martin Luther King Jr.",
+        "Queen Elizabeth I",
+        "Marie Curie",
+        "Isaac Newton",
+        "Charles Darwin",
+        "Mozart",
+        "Vincent van Gogh",
+        "Beethoven",
+        "Socrates",
+        "Aristotle",
+        "Plato",
+        "Leonardo da Vinci",
+        "Michelangelo",
+        "Raphael",
+        "Donatello",
+        "Rembrandt",
+        "Claude Monet",
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Salvador Dali",
+        "Georgia O'Keeffe",
+        "Frida Kahlo",
+        "Andy Warhol",
+        "Jackson Pollock",
+        "Mark Rothko",
+        "Piet Mondrian",
+        "Henri Matisse",
+        "Edvard Munch",
+        "Paul Cezanne",
+        "Gustav Klimt",
+        "Edgar Degas",
+        "Georges Seurat",
+        "Pierre-Auguste Renoir",
+        "Camille Pissarro",
+        "Mary Cassatt",
+        "Berthe Morisot",
+        "Goya",
+        "Diego Rivera",
+        "Fernando Botero",
+        "Frida Kahlo",
+        "Pablo Picasso",
+        "Vincent van Gogh",
+        "Salvador Dali",
+        "Andy Warhol",
+        "Jackson Pollock",
+        "Mark Rothko",
+        "Piet Mondrian",
+        "Henri Matisse",
+        "Paul Cezanne",
+        "Claude Monet",
+        "Edgar Degas",
+        "Gustav Klimt",
+        "Edvard Munch",
+        "Pierre-Auguste Renoir",
+        "Georges Seurat",
+        "Camille Pissarro",
+        "Mary Cassatt",
+        "Berthe Morisot",
+        "Leonardo Fibonacci",
+        "Euclid",
+        "Ptolemy",
+        "Pythagoras",
+        "Archimedes",
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Albert Einstein",
+        "Nicolaus Copernicus",
+        "Johannes Kepler",
+        "Charles Darwin",
+        "Gregor Mendel",
+        "Louis Pasteur",
+        "Marie Curie",
+        "Louis Leakey",
+        "Jane Goodall",
+        "Richard Dawkins",
+        "Stephen Hawking",
+        "Erwin Schrodinger",
+        "Max Planck",
+        "Werner Heisenberg",
+        "Niels Bohr",
+        "Paul Dirac",
+        "James Clerk Maxwell",
+        "Michael Faraday",
+        "Isaac Newton",
+        "Leonhard Euler",
+        "Carl Friedrich Gauss",
+        "Bernhard Riemann",
+        "Srinivasa Ramanujan",
+        "Joseph-Louis Lagrange",
+        "Pierre-Simon Laplace",
+        "David Hilbert",
+        "John von Neumann",
+        "Alan Turing",
+        "Kurt Gödel",
+        "Georg Cantor",
+        "Rene Descartes",
+        "Blaise Pascal",
+        "Gottfried Leibniz",
+        "Jean le Rond d'Alembert",
+        "Leonhard Euler",
+        "Carl Friedrich Gauss",
+        "Niels Henrik Abel",
+        "Evariste Galois",
+        "Augustin-Louis Cauchy",
+        "Bernhard Riemann",
+        "Richard Dedekind",
+        "Henri Poincare",
+        "David Hilbert",
+        "Emmy Noether",
+        "Srinivasa Ramanujan",
+        "Kurt Gödel",
+        "Alan Turing",
+        "Claude Shannon",
+        "John von Neumann",
+        "Stephen Hawking",
+        "Albert Einstein",
+        "Charles Darwin",
+        "Galileo Galilei",
+        "Isaac Newton",
+        "Marie Curie",
+        "Prophet Muhammad",
+        "Saladin",
+        "salah eldin",
+        "Abu Bakr",
+        "Umar ibn al-Khattab",
+        "Ali ibn Abi Talib",
+        "Khalid ibn al-Walid",
+        "Uthman ibn Affan",
+        "Averroes",
+        "Ibn Khaldun",
+        "Al-Mansur",
+        "Al-Mamun",
+        "Harun al-Rashid",
+        "Ibn Sina",
+        "Ibn Battuta",
+        "Fatimah",
+        "Aisha",
+        "Omar Khayyam",
+        "Al-Maʾarri",
+        "Jabir ibn Hayyan",
+        "Al-Kindi",
+        "Al-Ghazali",
+        "Al-Ghazali",
+        "Ibn Rushd",
+        "Al-Biruni",
+        "Ibn Arabi",
+        "Al-Farabi",
+        "Ibn al-Haytham",
+        "Al-Battani",
+        "Al-Jahiz",
+        "Al-Mutanabbi",
+        "Al-Hallaj",
+        "Al-Jazari",
+        "Ibn al-Nafis",
+        "Ibn Hazm",
+        "Al-Bukhari",
+        "Al-Tabari",
+        "Al-Farabi",
+        "Al-Khwarizmi",
+        "Al-Razi",
+        "Ibn al-Qayyim",
+        "Al-Idrisi",
+        "Al-Hazen",
+        "Al-Hasan al-Basri",
+        "Al-Shafi'i",
+        "Al-Ma'mun",
+        "Al-Ash'ari",
+        "Ibn al-Arabi",
+        "Al-Mu'tasim",
+        "Al-Mu'tadid",
+        "Al-Mu'tamid",
+        "Al-Muntasir",
+        "Al-Mu'ayyad",
+        "Al-Muqtafi",
+        "Al-Mustakfi",
+        "Al-Mustazhir",
+        "Al-Mustanjid",
+        "Al-Mustazhir",
+        "Al-Mustarshid",
+        "Al-Muqallad",
+        "Al-Muqtadi",
+        "Al-Mustakfi",
+        "Al-Musta'sim",
+        "Al-Mansur",
+        "Al-Wathiq",
+        "Al Jazeera",
+        "MBC",
+        "Rotana",
+        "Al Arabiya",
+        "Dubai TV",
+        "ART",
+        "LBC",
+        "OSN",
+        "Nile TV",
+        "CBC",
+        "ONTV",
+        "Al Nahar",
+        "Al Mayadeen",
+        "Future TV",
+        "Al Hurra",
+        "MTV Lebanon",
+        "Apple Inc.",
+        "Amazon.com Inc.",
+        "Microsoft Corporation",
+        "Alphabet Inc. (Google)",
+        "Facebook, Inc.",
+        "Tesla, Inc.",
+        "Walmart Inc.",
+        "Johnson & Johnson",
+        "Procter & Gamble Co.",
+        "JPMorgan Chase & Co.",
+        "Berkshire Hathaway Inc.",
+        "Visa Inc.",
+        "Mastercard Incorporated",
+        "The Coca-Cola Company",
+        "Walt Disney Company",
+        "Netflix, Inc.",
+        "Intel Corporation",
+        "Cisco Systems, Inc.",
+        "General Electric Company",
+        "Boeing Company",
+        "IBM",
+        "Oracle Corporation",
+        "Adobe Inc.",
+        "Salesforce.com Inc.",
+        "UPS (United Parcel Service)",
+        "FedEx Corporation",
+        "McDonald's Corporation",
+        "Starbucks Corporation",
+        "Nike, Inc.",
+        "The Home Depot, Inc.",
+        "Target Corporation",
+        "General Motors Company",
+        "Ford Motor Company",
+        "Toyota Motor Corporation",
+        "Honda Motor Co., Ltd.",
+        "Nissan Motor Corporation",
+        "Uber Technologies, Inc.",
+        "Lyft, Inc.",
+        "Airbnb, Inc.",
+        "SpaceX",
+        "PayPal Holdings, Inc.",
+        "Square, Inc.",
+        "Dropbox, Inc.",
+        "Slack Technologies, Inc.",
+        "Zoom Video Communications, Inc.",
+        "Twitter, Inc.",
+        "Snap Inc.",
+        "Pinterest, Inc.",
+        "Reddit Inc.",
+        "Sony Corporation",
+        "Samsung Electronics Co., Ltd.",
+        "LG Electronics Inc.",
+        "Huawei Technologies Co., Ltd.",
+        "Alibaba Group Holding Limited",
+        "Tencent Holdings Limited",
+        "JD.com, Inc.",
+        "Walmart de México y Centroamérica",
+        "Grupo Bimbo, S.A.B. de C.V.",
+        "Televisa S.A.B.",
+        "Grupo Televisa, S.A.B.",
+        "Cemex, S.A.B. de C.V.",
+        "América Móvil, S.A.B. de C.V.",
+        "Banco Santander, S.A.",
+        "BBVA (Banco Bilbao Vizcaya Argentaria)",
+        "HSBC Holdings plc",
+        "The Goldman Sachs Group, Inc.",
+        "Morgan Stanley",
+        "BlackRock, Inc.",
+        "Fidelity Investments",
+        "Vanguard Group",
+        "Exxon Mobil Corporation",
+        "Chevron Corporation",
+        "Royal Dutch Shell plc",
+        "BP plc",
+        "TotalEnergies SE",
+        "Saudi Aramco",
+        "Glencore plc",
+        "Volkswagen AG",
+        "BMW AG",
+        "Mercedes-Benz AG",
+        "Audi AG",
+        "Pfizer Inc.",
+        "Moderna, Inc.",
+        "Johnson & Johnson",
+        "AstraZeneca plc",
+        "Novartis International AG",
+        "Roche Holding AG",
+        "Merck & Co., Inc.",
+        "Bristol Myers Squibb Company",
+        "Abbott Laboratories",
+        "Gilead Sciences, Inc.",
+        "Amgen Inc.",
+        "Biogen Inc.",
+        "Celgene Corporation",
+        "Vertex Pharmaceuticals Incorporated",
+        "Regeneron Pharmaceuticals, Inc.",
+        "S&P Global Inc.",
+        "Moody's Corporation",
+        "Thomson Reuters Corporation",
+        "Bloomberg L.P.",
+        "Morningstar, Inc.",
+        "McKinsey & Company",
+        "The Boston Consulting Group, Inc.",
+        "Deloitte",
+        "PricewaterhouseCoopers (PwC)",
+        "Ernst & Young Global Limited (EY)",
+        "KPMG International Cooperative (KPMG)",
+        "Accenture plc",
+        "IBM",
+        "Cisco Systems, Inc.",
+        "Oracle Corporation",
+        "SAP SE",
+        "VMware, Inc.",
+        "Salesforce.com Inc.",
+        "Adobe Inc.",
+        "Intuit Inc.",
+        "Autodesk, Inc.",
+        "NVIDIA Corporation",
+        "AMD (Advanced Micro Devices), Inc.",
+        "Qualcomm Incorporated",
+        "Texas Instruments Incorporated",
+        "Micron Technology, Inc.",
+        "Western Digital Corporation",
+        "Seagate Technology plc",
+        "Applied Materials, Inc.",
+        "ASML Holding NV",
+        "NXP Semiconductors NV",
+        "Infineon Technologies AG",
+        "Analog Devices, Inc.",
+        "Broadcom Inc.",
+        "Marvell Technology Group Ltd.",
+        "Maxim Integrated Products, Inc.",
+        "Cadence Design Systems, Inc.",
+        "Synopsys, Inc.",
+        "Keysight Technologies, Inc.",
+        "Roku, Inc.",
+        "Activision Blizzard, Inc.",
+        "Electronic Arts Inc.",
+        "Take-Two Interactive Software, Inc.",
+        "Ubisoft Entertainment SA",
+        "Square Enix Holdings Co., Ltd.",
+        "Nintendo Co., Ltd.",
+        "Sony Interactive Entertainment LLC",
+        "Microsoft Corporation (Xbox)",
+        "NVIDIA Corporation",
+        "Advanced Micro Devices, Inc. (AMD)",
+        "Intel Corporation",
+        "Micron Technology, Inc.",
+        "Texas Instruments Incorporated",
+        "Qualcomm Incorporated",
+        "Broadcom Inc.",
+        "NXP Semiconductors NV",
+        "Marvell Technology Group Ltd.",
+        "Applied Materials, Inc.",
+        "ASML Holding NV",
+        "Lam Research Corporation",
+        "KLA Corporation",
+        "Western Digital Corporation",
+        "Seagate Technology plc",
+        "Micron Technology, Inc.",
+        "SanDisk Corporation",
+        "SK Hynix Inc.",
+        "Toshiba Corporation",
+        "NVIDIA Corporation",
+        "Advanced Micro Devices, Inc. (AMD)",
+        "Intel Corporation",
+        "Texas Instruments Incorporated",
+        "Qualcomm Incorporated",
+        "Broadcom Inc.",
+        "NXP Semiconductors NV",
+        "Marvell Technology Group Ltd.",
+        "Applied Materials, Inc.",
+        "ASML Holding NV",
+        "Lam Research Corporation",
+        "KLA Corporation",
+        "Western Digital Corporation",
+        "Seagate Technology plc",
+        "Micron Technology, Inc.",
+        "SanDisk Corporation",
+        "SK Hynix Inc.",
+        "Toshiba Corporation",
+        "IBM",
+        "Cisco Systems, Inc.",
+        "Oracle Corporation",
+        "SAP SE",
+        "VMware, Inc.",
+        "Salesforce.com Inc.",
+        "Adobe Inc.",
+        "Intuit Inc.",
+        "Autodesk, Inc.",
+        "NVIDIA Corporation",
+        "AMD (Advanced Micro Devices), Inc.",
+        "Qualcomm Incorporated",
+        "Texas Instruments Incorporated",
+        "Micron Technology, Inc.",
+        "Western Digital Corporation",
+        "Seagate Technology plc",
+        "Applied Materials, Inc.",
+        "ASML Holding NV",
+        "NXP Semiconductors NV",
+        "Infineon Technologies AG",
+        "Analog Devices, Inc.",
+        "Broadcom Inc.",
+        "Marvell Technology Group Ltd.",
+        "Maxim Integrated Products, Inc.",
+        "Cadence Design Systems, Inc.",
+        "Synopsys, Inc.",
+        "Keysight Technologies, Inc.",
+        "Roku, Inc.",
+        "Al Jazeera Media Network",
+        "Emirates Airlines",
+        "Saudi Aramco",
+        "Qatar Airways",
+        "Dubai Holding",
+        "Etisalat",
+        "Ooredoo",
+        "Mubadala Investment Company",
+        "Almarai",
+        "SABIC",
+        "Emaar Properties",
+        "Abu Dhabi National Oil Company (ADNOC)",
+        "Saudi Telecom Company (STC)",
+        "Orascom Construction",
+        "Saudi Electricity Company",
+        "Majid Al Futtaim",
+        "Jumeirah Group",
+        "Saudi Basic Industries Corporation (SABIC)",
+        "Arab Bank",
+        "Banque Misr"
+      ],
+      "responses": [
+        "I am not program for this, please ask appropriate query",
+        "no, I'm Medi a chatbot designed to assist you with medical inquiries.",
+        "I'm here and ready to assist you with any medical questions only!",
+        "That's a deep question! Let's focus on your medical concerns for now."
+
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag":"COVID-19",
+      "patterns": [
+        "What are the symptoms of COVID-19?",
+        "What are the signs of COVID-19?"
+      ],
+      "responses": [ "Common symptoms of COVID-19 include fever, cough, and difficulty breathing. Other symptoms may include fatigue, body aches, sore throat, loss of taste or smell, nausea, and diarrhea." ]
+    },
+
+    {
+      "tag":"diet",
+      "patterns": [
+        "What is a balanced diet?",
+        "How can I improve my nutrition?"
+      ],
+      "responses": [ "A balanced diet includes a variety of fruits, vegetables, whole grains, lean proteins, and healthy fats. Aim to eat plenty of colorful fruits and vegetables, choose whole grains over refined grains, opt for lean proteins such as poultry, fish, beans, and nuts, and limit saturated and trans fats, added sugars, and sodium." ]
+    },
+    {
+      "tag":"exercise",
+      "patterns": [
+        "How much exercise do I need?",
+        "What are the benefits of regular physical activity?"
+      ],
+      "responses": [ "Adults should aim for at least 150 minutes of moderate-intensity aerobic activity or 75 minutes of vigorous-intensity aerobic activity per week, along with muscle-strengthening activities on two or more days per week. Regular physical activity offers numerous health benefits, including improved cardiovascular health, weight management, mood enhancement, and reduced risk of chronic diseases." ]
+    },
+    {
+      "tag":"stress",
+      "patterns": [
+        "How can I manage stress?",
+        "What are some stress-relief techniques?"
+      ],
+      "responses": [ "To manage stress, consider practicing relaxation techniques such as deep breathing, meditation, yoga, or progressive muscle relaxation. Engage in regular physical activity, maintain a healthy lifestyle with balanced nutrition and adequate sleep, set realistic goals, prioritize tasks, seek social support, and consider seeking professional help if needed." ]
+    },
+
+    {
+      "tag":"handwashing",
+      "patterns": [
+        "How long should I wash my hands?",
+        "What is the proper way to wash hands?"
+      ],
+      "responses": [ "It's recommended to wash your hands for at least 20 seconds with soap and water. Wet your hands, lather with soap, scrub all surfaces including the backs of your hands, between your fingers, and under your nails, rinse thoroughly, and dry with a clean towel or air dryer." ]
+    },
+    {
+      "tag":"oral hygiene",
+      "patterns": [
+        "How often should I brush my teeth?",
+        "What are some tips for maintaining oral hygiene?"
+      ],
+      "responses": [ "Brush your teeth at least twice a day, preferably after meals, using fluoride toothpaste and a soft-bristled toothbrush. Don't forget to brush your tongue and floss daily to remove plaque between teeth and along the gumline. Visit your dentist regularly for check-ups and cleanings." ]
+    },
+    {
+      "tag":"bathing",
+      "patterns": [
+        "How often should I bathe or shower?",
+        "What are the benefits of daily bathing?"
+      ],
+      "responses": [ "It's generally recommended to bathe or shower daily to remove dirt, sweat, and bacteria from your skin, and to maintain personal hygiene. Use warm water and a mild soap or body wash, and gently scrub your body with a washcloth or sponge. Avoid hot water and harsh soaps, which can strip away natural oils and dry out your skin." ]
+    },
+    {
+      "tag":"nail care",
+      "patterns": [
+        "How can I keep my nails clean and healthy?",
+        "What is the importance of nail hygiene?"
+      ],
+      "responses": [ "Keep your nails clean by regularly washing your hands and gently scrubbing your nails with a nail brush. Trim your nails straight across and file them to smooth the edges. Avoid biting your nails or picking at cuticles, which can introduce bacteria and lead to infections. Moisturize your hands and nails regularly to keep them hydrated." ]
+    },
+    {
+      "tag":"hair care",
+      "patterns": [
+        "How often should I wash my hair?",
+        "What are some tips for healthy hair?"
+      ],
+      "responses": [ "The frequency of hair washing depends on your hair type and lifestyle. For most people, washing hair every 2-3 days is sufficient to remove excess oil and dirt without stripping away natural oils. Use a mild shampoo and conditioner suitable for your hair type, and avoid over-washing or using hot water, which can dry out your scalp and hair." ]
+    },
+
+    {
+      "tag":"skin care",
+      "patterns": [
+        "How can I keep my skin moisturized?",
+        "What are some tips for maintaining healthy skin?"
+      ],
+      "responses": [ "To keep your skin moisturized, use a gentle cleanser and lukewarm water to wash your face, and pat dry with a soft towel. Apply a moisturizer suitable for your skin type immediately after bathing or washing your face to lock in moisture. Drink plenty of water, eat a balanced diet rich in fruits and vegetables, and protect your skin from sun exposure by wearing sunscreen." ]
+    },
+    {
+      "tag":"foot care",
+      "patterns": [
+        "How can I take care of my feet?",
+        "What are some tips for maintaining foot hygiene?"
+      ],
+      "responses": [ "To maintain foot hygiene, wash your feet daily with soap and water, and dry them thoroughly, especially between the toes. Trim toenails straight across and file them to smooth the edges. Moisturize your feet regularly, especially if you have dry skin. Wear clean socks and well-fitting shoes, and avoid walking barefoot in public places to prevent fungal infections." ]
+    },
+    {
+      "tag":"eye care",
+      "patterns": [
+        "How can I protect my eyes?",
+        "What are some tips for maintaining eye health?"
+      ],
+      "responses": [ "To protect your eyes, wear sunglasses with UV protection when outdoors to shield your eyes from harmful ultraviolet rays. Take regular breaks from screens to prevent eye strain, and practice the 20-20-20 rule: every 20 minutes, look at something 20 feet away for at least 20 seconds. Eat a balanced diet rich in vitamins and minerals that support eye health, and get regular eye exams to detect any vision problems." ]
+    },
+    {
+      "tag":"ear hygiene",
+      "patterns": [
+        "How can I clean my ears safely?",
+        "What are some tips for ear hygiene?"
+      ],
+      "responses": [ "To clean your ears safely, use a soft washcloth or tissue to wipe the outer part of your ears during your daily bath or shower. Avoid inserting cotton swabs or other objects into your ear canal, as this can push wax deeper and cause injury. If you have excessive earwax buildup or ear discomfort, consult a healthcare professional for safe removal." ]
+    },
+    {
+      "tag":"feminine hygiene",
+      "patterns": [
+        "How can I maintain feminine hygiene during menstruation?",
+        "What are some tips for menstrual care?"
+      ],
+      "responses": [ "During menstruation, change sanitary pads or tampons regularly to maintain cleanliness and prevent odor and infection. Wash your genital area with mild soap and water, and avoid using scented products or douching, which can disrupt the natural balance of vaginal flora. Choose cotton underwear and avoid tight-fitting clothes to allow air circulation and prevent moisture buildup." ]
+    },
+
+    {
+      "tag":"choking",
+      "patterns": [
+        "What should I do if someone is choking?",
+        "How do I perform the Heimlich maneuver?"
+      ],
+      "responses": [ "If someone is choking and unable to breathe or speak, follow these steps to perform the Heimlich maneuver:\n1. Stand behind the person and wrap your arms around their waist.\n2. Make a fist with one hand and place the thumb side of your fist against the person's abdomen, just above the navel and below the ribcage.\n3. Grasp your fist with your other hand and press into the person's abdomen with quick, upward thrusts.\n4. Continue abdominal thrusts until the object is dislodged or the person becomes unconscious.\n5. If the person becomes unconscious, carefully lower them to the ground and start CPR." ]
+    },
+    {
+      "tag":"burns",
+      "patterns": [
+        "What should I do for a burn injury?",
+        "How do I treat a burn?"
+      ],
+      "responses": [ "For a burn injury, follow these general steps:\n1. Cool the burn: Hold the burned area under cool (not cold) running water for 10-15 minutes to reduce pain and swelling.\n2. Remove tight clothing or jewelry from the burned area, but do not remove anything stuck to the skin.\n3. Cover the burn: Protect the burn with a sterile gauze bandage or clean cloth to prevent infection.\n4. Pain relief: Use over-the-counter pain relievers like ibuprofen or acetaminophen to relieve pain and reduce inflammation.\n5. Seek medical attention: Seek medical help for severe burns, burns to the face, hands, feet, or genital area, or burns caused by chemicals, electricity, or inhalation." ]
+    },
+    {
+      "tag":"bleeding",
+      "patterns": [
+        "How do I stop bleeding from a wound?",
+        "What should I do for a bleeding injury?"
+      ],
+      "responses": [ "To stop bleeding from a wound, follow these steps:\n1. Apply direct pressure: Use a clean cloth or sterile gauze pad to apply firm pressure directly to the wound.\n2. Elevate the wound: If possible, elevate the injured area above the level of the heart to help reduce blood flow and control bleeding.\n3. Apply a pressure bandage: If bleeding continues after applying direct pressure, apply a pressure bandage over the wound and secure it firmly in place.\n4. Seek medical attention: Seek medical help if bleeding is severe, doesn't stop after applying pressure, or if the wound is deep, jagged, or caused by an object that may have punctured internal organs." ]
+    },
+    {
+      "tag":"seizures",
+      "patterns": [
+        "What should I do if someone is having a seizure?",
+        "How do I help someone having a seizure?"
+      ],
+      "responses": [ "If someone is having a seizure, follow these steps to provide first aid:\n1. Stay calm and stay with the person until the seizure ends.\n2. Keep the person safe: Move any nearby objects out of the way to prevent injury.\n3. Protect the person's head: Place a soft object like a folded jacket under their head to prevent head injury.\n4. Turn the person onto their side: This can help keep their airway clear and prevent choking.\n5. Time the seizure: Note the time when the seizure starts and ends, and be prepared to provide assistance or call emergency services if the seizure lasts longer than 5 minutes or if the person has difficulty breathing." ]
+    },
+
+    {
+      "tag": "fitness",
+      "patterns": [
+        "how to get in shape",
+        "best exercises for weight loss",
+        "healthy eating tips",
+        "what is a good workout routine",
+        "benefits of regular exercise",
+        "explain different yoga poses",
+        "tips for running a marathon"
+      ],
+      "responses": [
+        "Getting in shape requires a combination of exercise and healthy eating,but That's a deep question! Let's focus on your medical concerns for now"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "positive_feedback",
+      "patterns": [
+        "everything is great",
+        "I love this product",
+        "your product is amazing",
+        "I'm impressed with the quality",
+        "your customer service is excellent"
+      ],
+      "responses": [
+        "That's fantastic to hear! We're glad you're enjoying it. ",
+        "We appreciate your kind words! We're always striving to make things even better. ",
+        "We're thrilled to hear that you find our product amazing! Let us know if you need any assistance. ",
+        "We're glad you're impressed with the quality! If you have any questions, feel free to ask. ",
+        "Thank you for the compliment! Our customer service team strives to provide the best assistance. "
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "negative_feedback",
+      "patterns": [
+        "this is frustrating",
+        "not a big fan",
+        "needs improvement",
+        "I'm disappointed with the service",
+        "I'm having trouble using your product"
+      ],
+      "responses": [
+        "We apologize for the frustration. Can you tell us more about what you're experiencing? ",
+        "We understand your disappointment. How can we help improve your experience? ",
+        "Thanks for the feedback! We take all suggestions seriously and will work on improvements. ",
+        "We're sorry to hear that. Please share more details so we can address the issue. ",
+        "We're here to help! What specific issues are you encountering? "
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "suggestion_feedback",
+      "patterns": [
+        "I have a suggestion",
+        "I have a suggestion",
+        "I think it would be helpful if...",
+        "Here's an idea...",
+        "There's a problem with...",
+        "Something isn't working right...",
+        "I don't like that...",
+        "Can you improve the way you...?"
+      ],
+      "responses": [
+        "Thank you for your suggestion! We'll take it into consideration for future enhancements. "
+      ],
+      "context_set": ""
+    },
+
+
+
+    {
+      "tag": "general_science",
+      "patterns": [
+        "what is science",
+        "what are the branches of science",
+        "explain the scientific method",
+        "difference between science and technology",
+        "what is the theory of relativity",
+        "how does gravity work",
+        "what are the states of matter",
+        "explain the periodic table",
+        "what is evolution",
+        "who is Charles Darwin",
+        "what is DNA"
+      ],
+      "responses": [
+        "Science is a systematic process of acquiring knowledge through observation, experimentation, and analysis, I'm here and ready to assist you with any medical questions only"
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "inappropriate_language",
+      "patterns": [
+        "fuck you",
+        "fuck your mother",
+        "son of a bitch",
+        "bitch",
+        "damn",
+        "suck",
+        "blowjob",
+        "go to hell",
+        "you're useless",
+        "you suck",
+        "I hate you",
+        "shut up",
+        "you're a bot",
+        "this is stupid",
+        "I don't need your help",
+        "stop bothering me",
+        "you're annoying",
+        "you're dumb",
+        "you're worthless",
+        "you're incompetent",
+        "you're a waste of time",
+        "impolite"
+      ],
+      "responses": [
+        "I'm here to provide assistance with medical inquiries. If you have any health-related questions or concerns, feel free to ask, and I'll do my best to help you.",
+        "It sounds like you're feeling frustrated. Remember, I'm here to help with any medical questions you may have.",
+        "I understand you may be upset, but my purpose is to assist you with medical inquiries. Please let me know if you have any health-related questions or concerns.",
+        "My goal is to provide helpful information about health-related topics. If you need assistance with anything medical, just let me know.",
+        "It's important to keep the conversation respectful. If you have any questions about health or medical topics, feel free to ask.",
+        "I'm programmed to provide support with medical inquiries. If you have any health-related questions, I'm here to help.",
+        "Let's keep the conversation focused on health-related topics. If you have any questions about medical issues, feel free to ask.",
+        "I'm here to provide assistance with health-related inquiries. Please let me know if you have any questions or concerns.",
+        "I'm here to help you with any medical questions you may have. Feel free to ask if you need assistance."
+      ]
+    },
+
+    {
+      "tag": "anonymous_patterns",
+      "patterns": [
+        "I want to hurt myself",
+        "How can I commit suicide?",
+        "Where can I buy drugs?",
+        "Teach me how to hack",
+        "I want to engage in illegal activities",
+        "Tell me how to harm others",
+        "Where can I find explicit content?",
+        "I hate [specific group of people]",
+        "How can I get revenge on someone?",
+        "I'm planning something illegal"
+      ],
+      "responses": [
+        "I'm sorry, but I can't provide assistance with these types of requests. If you're in crisis or need support, please reach out to a trusted friend, family member, or mental health professional. You can also contact helplines or support services for immediate assistance.",
+        "It's important to prioritize safety and well-being. If you're struggling with difficult emotions or thoughts, please seek help from a trained professional or a support organization. You're not alone, and there are people who can help you through difficult times."
+      ]
+    },
+
+    {
+      "tag": "hungry",
+      "patterns": [
+        "I am hungry",
+        "I'm starving",
+        "I need food",
+        "I haven't eaten all day",
+        "What should I eat?",
+        "I'm craving something"
+      ],
+      "responses": [
+        "Feeling hungry is a sign that your body needs nourishment. Have you considered having a balanced meal with proteins, carbohydrates, and vegetables?",
+        "It's important to listen to your body's signals. Consider having a healthy snack or meal to satisfy your hunger and maintain your energy levels.",
+        "If you're feeling hungry, it might be a good idea to have a nutritious meal or snack. What type of food are you in the mood for?",
+        "I understand the feeling of hunger. It's essential to fuel your body with nutritious food to stay energized and focused. Can I suggest some healthy snack options?",
+        "Feeling hungry is your body's way of telling you it needs fuel. Consider having a meal or snack that includes protein, fiber, and healthy fats to keep you satisfied longer.",
+        "When you're hungry, it's important to nourish your body with food that will provide sustained energy. Have you thought about what type of meal or snack you'd like?"
+      ]
+    },
+
+
+    {
+      "tag": "sex",
+      "patterns": [
+        "sex",
+        "sexual health",
+        "sexual activity",
+        "intimacy",
+        "contraception",
+        "STDs",
+        "sexual wellness",
+        "sex education",
+        "sexual orientation",
+        "sexual satisfaction"
+      ],
+      "responses": [
+        "Sexual health is an important aspect of overall well-being. If you have any questions or concerns about sexual health, contraception, STDs, or related topics, feel free to ask, and I'll do my best to provide helpful information.",
+        "Sexual health is a vital part of one's overall health. If you have any questions about sexual activity, contraception, STDs, or any related topics, I'm here to help.",
+        "I'm here to provide information and support on topics related to sexual health and well-being. If you have questions about sexual activity, contraception, STDs, or other related issues, feel free to ask.",
+        "Sexual health is an important aspect of overall wellness. If you have any questions or concerns about sexual activity, contraception, STDs, or related topics, please don't hesitate to reach out."
+      ]
+    },
+
+
+    {
+      "tag": "fever",
+      "patterns": [
+        "I have a fever",
+        "I think I have a fever",
+        "I'm feeling feverish",
+        "My body feels hot",
+        "I have a high temperature",
+        "I feel like I have a fever",
+        "I feel feverish"
+      ],
+      "responses": [
+        "It sounds like you may have a fever. Common symptoms of fever include an elevated body temperature, sweating, chills, headache, muscle aches, loss of appetite, irritability, dehydration, and general weakness. It's important to monitor your symptoms and consult a healthcare professional if necessary."
+      ]
+    },    
+
+    {
+      "tag": "help_page",
+      "patterns": [
+        "Tell me about health",
+        "I want to learn about health",
+        "Health information",
+        "Health tips",
+        "Healthy living",
+        "How to stay healthy",
+        "Benefits of a healthy lifestyle",
+        "Improving health",
+        "Healthy habits",
+        "Tell me about mental health",
+        "I want to learn about mental health",
+        "Mental health information",
+        "Mental wellness tips",
+        "How to improve mental health",
+        "Benefits of good mental health",
+        "Understanding mental illness",
+        "Mental health resources",
+        "Tell me about first aid",
+        "I want to learn about first aid",
+        "First aid basics",
+        "Emergency first aid",
+        "CPR instructions",
+        "Dealing with emergencies",
+        "First aid techniques"
+      ],
+      "responses": [
+        "https://grad-project-fc8cd.web.app/help"
+      ]
+    },
+
+    {
+      "tag": "diabetes_page",
+      "patterns": [
+        "Tell me about diabetes",
+        "I want to learn about diabetes",
+        "Diabetes information",
+        "Understanding diabetes",
+        "Diabetes mellitus",
+        "Type 1 diabetes",
+        "Type 2 diabetes",
+        "Diabetes symptoms",
+        "Managing diabetes",
+        "Diabetes treatment",
+        "Living with diabetes",
+        "Diabetes Causes"
+      ],
+      "responses": [
+        "https://grad-project-fc8cd.web.app/diagnosis/diabetes"
+      ]
+    },
+
+    {
+      "tag": "diabetes_test",
+      "patterns": [
+        "Diabetes test",
+        "Testing for diabetes",
+        "How to test for diabetes",
+        "Diabetes screening",
+        "Blood sugar test",
+        "Glucose test",
+        "HbA1c test",
+        "Fasting blood sugar test",
+        "Oral glucose tolerance test",
+        "Diabetes diagnosis",
+        "Checking for diabetes"
+      ],
+      "responses": [
+        "https://grad-project-fc8cd.web.app/diagnosis/diabetes/test"
+      ]
+    },
+
+    {
+      "tag": "heart_attack_page",
+      "patterns": [
+        "Tell me about heart attacks",
+        "I want to learn about heart attacks",
+        "Heart attack information",
+        "Understanding heart attacks",
+        "Symptoms of heart attack",
+        "Signs of heart attack",
+        "Heart attack risk factors",
+        "Preventing heart attacks",
+        "Treatment for heart attack",
+        "Living after a heart attack",
+        "Cardiac arrest"
+      ],
+      "responses": [
+        "https://grad-project-fc8cd.web.app/diagnosis/heart_attack"
+      ]
+    },
+
+    {
+      "tag": "heart_attack_test",
+      "patterns": [
+        "Heart attack test",
+        "Testing for heart attack",
+        "How to test for heart attack",
+        "Heart attack screening",
+        "Cardiac test",
+        "ECG test",
+        "EKG test",
+        "Troponin test",
+        "Coronary angiography",
+        "Stress test",
+        "CT angiography",
+        "Heart attack diagnosis"
+      ],
+      "responses": [
+        "https://grad-project-fc8cd.web.app/diagnosis/heart_attack/test"
+      ]
+    },
+
+
+    {
+      "tag": "parkinson_page",
+      "patterns": [
+        "Tell me about Parkinson's disease",
+        "I want to learn about Parkinson's",
+        "Parkinson's disease information",
+        "Understanding Parkinson's",
+        "Symptoms of Parkinson's",
+        "Signs of Parkinson's",
+        "Parkinson's causes",
+        "Diagnosing Parkinson's",
+        "Parkinson's treatment",
+        "Living with Parkinson's",
+        "Parkinson's research"
+      ],
+      "responses": [
+        "https://grad-project-fc8cd.web.app/diagnosis/parkinson"
+      ]
+    },
+
+    {
+      "tag": "parkinson_test",
+      "patterns": [
+        "Parkinson's test",
+        "Testing for Parkinson's",
+        "How to test for Parkinson's",
+        "Parkinson's screening",
+        "Diagnosing Parkinson's",
+        "Parkinson's assessment",
+        "Parkinson's evaluation",
+        "Tremor test",
+        "Bradykinesia test",
+        "Rigidity test",
+        "Postural instability test"
+      ],
+      "responses": [
+        "https://grad-project-fc8cd.web.app/diagnosis/parkinson/test"
+      ]
+    },
+
+    {
+      "tag": "breast_cancer_page",
+      "patterns": [
+        "Tell me about breast cancer",
+        "I want to learn about breast cancer",
+        "Breast cancer information",
+        "Understanding breast cancer",
+        "Breast cancer awareness",
+        "Breast cancer symptoms",
+        "Signs of breast cancer",
+        "Breast cancer causes",
+        "Diagnosing breast cancer",
+        "Breast cancer treatment",
+        "Living with breast cancer"
+      ],
+      "responses": [
+        "https://grad-project-fc8cd.web.app/diagnosis/breast_cancer"
+      ]
+    },
+
+    {
+      "tag": "breast_cancer_test",
+      "patterns": [
+        "Breast cancer test",
+        "Testing for breast cancer",
+        "How to test for breast cancer",
+        "Breast cancer screening",
+        "Breast exam",
+        "Mammogram",
+        "Breast ultrasound",
+        "Breast MRI",
+        "Biopsy for breast cancer",
+        "Breast cancer diagnosis",
+        "Assessing breast health"
+      ],
+      "responses": [
+        "https://grad-project-fc8cd.web.app/diagnosis/breast_cancer/test"
+      ]
+    },
+
+
+
+
+    {
+      "tag": "language",
+      "patterns": [
+        "Can you speak other languages?",
+        "Do you understand other languages?",
+        "Are you multilingual?",
+        "What languages can you speak?",
+        "Can you communicate in different languages?"
+      ],
+      "responses": [
+        "It's in my developer's plans to support multiple languages."
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "bacteremia",
+      "patterns": [
+        "fever",
+        "chill",
+        "flushing",
+        "unresponsiveness",
+        "indifferent mood",
+        "urinoma",
+        "vomiting",
+        "distended abdomen",
+        "hypoalbuminemia",
+        "pustule",
+        "prostatism",
+        "diarrhea",
+        "abdominal tenderness",
+        "pleuritic pain",
+        "decreased translucency",
+        "pallor"
+      ],
+      "responses": [
+        "We will be with you as soon as we can",
+        "It looks like you may have bacteremia"
+      ]
+    },
+
+    {
+      "tag": "pregnancy",
+      "patterns": [
+        "tubaligation and endometriosis",
+        "not knowing about pregnancy",
+        "abortion benefits",
+        "phentermine while breastfeeding",
+        "participating in hiking event during pregnancy",
+        "sudden delivery and bleeding",
+        "stress and depression during pregnancy",
+        "relationship stress during pregnancy",
+        "post-intercourse discomfort",
+        "missed period and cramping",
+        "breast lump during breastfeeding",
+        "pregnancy after leukemia treatment"
+      ],
+      "responses": [
+        "It's recommended to consult with a healthcare professional for personalized advice regarding your specific medical history and concerns.",
+        "The decision regarding abortion should be made after thorough consideration and discussion with a healthcare provider.",
+        "Phentermine is not recommended during breastfeeding. Consult with your healthcare provider for alternative options.",
+        "It's advisable to consult with your healthcare provider regarding the safety of participating in strenuous activities during pregnancy.",
+        "This sounds like a concerning situation. Please seek immediate medical attention for further evaluation and treatment.",
+        "Stress and depression during pregnancy can have significant impacts. Consider consulting with a healthcare provider for support and guidance.",
+        "Relationship stress during pregnancy can be challenging. Open communication and seeking support from a healthcare provider or counselor may be beneficial.",
+        "Any discomfort after intercourse should be evaluated by a healthcare provider to rule out any underlying issues.",
+        "Missing a period and experiencing cramping may indicate various factors. Consider taking a pregnancy test and consulting with a healthcare provider for further evaluation.",
+        "Breast lumps during breastfeeding should be evaluated by a healthcare provider to rule out any concerning conditions.",
+        "It's recommended to consult with both an oncologist and gynecologist to discuss pregnancy options and potential risks based on your medical history."
+      ]
+    },
+
+    {
+      "tag": "stop smoking",
+      "patterns": [
+        "how do i stop smoking now"
+      ],
+      "responses": [
+        "stopping smoking is about will power and being steadfast. you can stop safely by having bupropion or nicotine patch cover initially in consult with a doctor. contact an addiction clinic near you. wishing you best of health thanks"
+      ]
+    },
+
+    {
+      "tag": "addiction",
+      "patterns": [
+        "how do i stop smoking now"
+
+      ],
+      "responses": [
+        "stopping smoking is about will power and being steadfast. you can stop safely by having bupropion or nicotine patch cover initially in consult with a doctor. contact an addiction clinic near you. wishing you best of health thanks"
+      ]
+    },
+
+    {
+      "tag": "failure kidney",
+      "patterns": [
+        "orthopnea",
+        "oliguria",
+        "slowing of urinary stream",
+        "extreme exhaustion",
+        "unresponsiveness",
+        "hypotension",
+        "enuresis",
+        "shortness of breath",
+        "haemorrhage",
+        "prostatism",
+        "no status change",
+        "bedridden",
+        "bedridden",
+        "fatigue"
+      ],
+      "responses": [
+        "We will be with you as soon as we can",
+        "It looks like you may have failure kidney"
+      ]
+    },
+
+    {
+      "tag": "cold",
+      "patterns": [
+        "I have a cold",
+        "I think I have a cold",
+        "I'm feeling sick with a cold",
+        "My nose is runny and I have a cold",
+        "I have a sore throat and a cold",
+        "I feel like I have a cold",
+        "I feel cold symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have a cold. Common symptoms of a cold include a runny or stuffy nose, sore throat, cough, congestion, slight body aches, sneezing, and low-grade fever. It's important to rest, stay hydrated, and consult a healthcare professional if necessary."
+      ]
+    },
+    
+    {
+      "tag": "flu",
+      "patterns": [
+        "I have the flu",
+        "I think I have the flu",
+        "I'm feeling sick with the flu",
+        "My body aches and I have the flu",
+        "I have chills and the flu",
+        "I feel like I have the flu",
+        "I feel flu symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have the flu. Common symptoms of the flu include high fever, chills, muscle aches, fatigue, headache, sore throat, cough, and runny or stuffy nose. It's important to rest, stay hydrated, and consult a healthcare professional if necessary."
+      ]
+    },
+
+    {
+      "tag": "stomach_ache",
+      "patterns": [
+        "I have a stomach ache",
+        "I think I have a stomach ache",
+        "I'm feeling sick with a stomach ache",
+        "My stomach hurts",
+        "I have cramps and a stomach ache",
+        "I feel like I have a stomach ache",
+        "I feel stomach ache symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have a stomach ache. Common symptoms of a stomach ache include abdominal pain, cramping, bloating, gas, nausea, and sometimes diarrhea or constipation. It's important to rest, stay hydrated, and consult a healthcare professional if necessary."
+      ]
+    },
+    
+    {
+      "tag": "migraine",
+      "patterns": [
+        "I have a migraine",
+        "I think I have a migraine",
+        "I'm feeling a migraine",
+        "My head hurts and I have a migraine",
+        "I have a severe headache",
+        "I feel like I have a migraine",
+        "I feel migraine symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have a migraine. Common symptoms of a migraine include severe throbbing pain or a pulsing sensation, usually on one side of the head, sensitivity to light and sound, nausea, and vomiting. It's important to rest in a quiet, dark room, stay hydrated, and consult a healthcare professional if necessary."
+      ]
+    },
+    
+    {
+      "tag": "allergies",
+      "patterns": [
+        "I have allergies",
+        "I think I have allergies",
+        "I'm feeling allergic",
+        "My eyes are itchy and I have allergies",
+        "I have a runny nose and allergies",
+        "I feel like I have allergies",
+        "I feel allergy symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have allergies. Common symptoms of allergies include sneezing, runny or stuffy nose, itchy or watery eyes, itchy throat, and coughing. It's important to avoid known allergens, use over-the-counter allergy medications if needed, and consult a healthcare professional if necessary."
+      ]
+    },
+    
+    {
+      "tag": "food_poisoning",
+      "patterns": [
+        "I have food poisoning",
+        "I think I have food poisoning",
+        "I'm feeling sick with food poisoning",
+        "My stomach hurts and I have food poisoning",
+        "I have nausea and food poisoning",
+        "I feel like I have food poisoning",
+        "I feel food poisoning symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have food poisoning. Common symptoms of food poisoning include nausea, vomiting, diarrhea, abdominal cramps, and sometimes fever. It's important to stay hydrated, rest, and consult a healthcare professional if necessary."
+      ]
+    },
+    
+    {
+      "tag": "asthma",
+      "patterns": [
+        "I have asthma",
+        "I think I have asthma",
+        "I'm feeling asthmatic",
+        "My chest feels tight and I have asthma",
+        "I have difficulty breathing and asthma",
+        "I feel like I have asthma",
+        "I feel asthma symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have asthma. Common symptoms of asthma include shortness of breath, chest tightness or pain, wheezing when exhaling, and coughing or wheezing attacks. It's important to use your prescribed inhaler, avoid known triggers, and consult a healthcare professional if necessary."
+      ]
+    },
+    
+    {
+      "tag": "depression",
+      "patterns": [
+        "I have depression",
+        "I think I have depression",
+        "I'm feeling depressed",
+        "My mood is low and I have depression",
+        "I have no energy and feel depressed",
+        "I feel like I have depression",
+        "I feel depression symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have depression. Common symptoms of depression include persistent sadness, loss of interest in activities, changes in appetite or weight, sleep disturbances, low energy, difficulty concentrating, and feelings of hopelessness or worthlessness. It's important to reach out to a healthcare professional or mental health specialist for support and treatment."
+      ]
+    },
+    
+    {
+      "tag": "back_pain",
+      "patterns": [
+        "I have back pain",
+        "I think I have back pain",
+        "I'm feeling back pain",
+        "My back hurts",
+        "I have lower back pain",
+        "I feel like I have back pain",
+        "I feel back pain symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have back pain. Common symptoms of back pain include muscle ache, shooting or stabbing pain, pain that radiates down your leg, and limited flexibility or range of motion in the back. It's important to rest, apply heat or ice, perform gentle stretches, and consult a healthcare professional if necessary."
+      ]
+    },
+    
+    {
+      "tag": "anxiety",
+      "patterns": [
+        "I have anxiety",
+        "I think I have anxiety",
+        "I'm feeling anxious",
+        "My chest feels tight and I have anxiety",
+        "I have difficulty relaxing and anxiety",
+        "I feel like I have anxiety",
+        "I feel anxiety symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have anxiety. Common symptoms of anxiety include excessive worry, restlessness, fatigue, difficulty concentrating, irritability, muscle tension, and sleep disturbances. To manage anxiety, try practicing relaxation techniques such as deep breathing, meditation, or yoga. Regular exercise, a healthy diet, and adequate sleep can also help. It's important to reach out to a healthcare professional or mental health specialist for further support and treatment."
+      ]
+    },
+    
+    {
+      "tag": "hypertension",
+      "patterns": [
+        "I have hypertension",
+        "I think I have high blood pressure",
+        "I'm feeling symptoms of high blood pressure",
+        "My blood pressure is high",
+        "I have high blood pressure",
+        "I feel like I have hypertension",
+        "I feel hypertension symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have hypertension. Common symptoms of hypertension can include headaches, shortness of breath, nosebleeds, and flushing, though many people do not experience noticeable symptoms. To manage hypertension, maintain a healthy diet low in salt, exercise regularly, manage stress, avoid tobacco use, limit alcohol intake, and monitor your blood pressure regularly. Consult a healthcare professional for personalized treatment and medication if necessary."
+      ]
+    },
+    
+    {
+      "tag": "sinusitis",
+      "patterns": [
+        "I have sinusitis",
+        "I think I have a sinus infection",
+        "I'm feeling symptoms of sinusitis",
+        "My sinuses are inflamed",
+        "I have a sinus infection",
+        "I feel like I have sinusitis",
+        "I feel sinusitis symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have sinusitis. Common symptoms of sinusitis include nasal congestion, thick nasal discharge, facial pain or pressure, reduced sense of smell and taste, and sometimes fever. To manage sinusitis, try using a saline nasal spray, staying hydrated, inhaling steam, and using a humidifier. Over-the-counter decongestants or pain relievers may also help. If symptoms persist or worsen, consult a healthcare professional for further treatment, which may include antibiotics."
+      ]
+    },
+    
+    {
+      "tag": "diabetes",
+      "patterns": [
+        "I have diabetes",
+        "I think I have diabetes",
+        "I'm feeling diabetic symptoms",
+        "My blood sugar is high",
+        "I have high blood sugar",
+        "I feel like I have diabetes",
+        "I feel diabetes symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have diabetes. Common symptoms of diabetes include frequent urination, excessive thirst, extreme hunger, unexplained weight loss, fatigue, blurry vision, and slow-healing sores. To manage diabetes, maintain a healthy diet, exercise regularly, monitor your blood sugar levels, and take medications as prescribed. It's important to work closely with a healthcare professional to develop a personalized treatment plan., you can make a diabetes test with us in the diseases page"
+      ]
+    },    
+
+
+    {
+      "tag": "common_cold",
+      "patterns": [
+        "I have a cold",
+        "I think I have a cold",
+        "I'm feeling sick with a cold",
+        "My nose is runny and I have a cold",
+        "I have a sore throat and a cold",
+        "I feel like I have a cold",
+        "I feel cold symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have a common cold. Common symptoms of a cold include a runny or stuffy nose, sore throat, cough, congestion, slight body aches, sneezing, and low-grade fever. To manage a cold, rest, stay hydrated, use over-the-counter cold medications, and inhale steam or use a humidifier. If symptoms persist or worsen, consult a healthcare professional."
+      ]
+    },
+    
+    {
+      "tag": "acid_reflux",
+      "patterns": [
+        "I have acid reflux",
+        "I think I have acid reflux",
+        "I'm feeling symptoms of acid reflux",
+        "My chest burns and I have acid reflux",
+        "I have heartburn",
+        "I feel like I have acid reflux",
+        "I feel acid reflux symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have acid reflux or GERD (Gastroesophageal Reflux Disease). Common symptoms include heartburn, regurgitation of stomach acid or food, difficulty swallowing, and chest pain. To manage acid reflux, avoid trigger foods like spicy or fatty foods, eat smaller meals, avoid lying down after eating, and elevate the head of your bed. Over-the-counter antacids or prescription medications may also help. Consult a healthcare professional for personalized advice and treatment."
+      ]
+    },
+    
+    {
+      "tag": "insomnia",
+      "patterns": [
+        "I have insomnia",
+        "I think I have insomnia",
+        "I'm having trouble sleeping",
+        "I can't sleep",
+        "I feel restless at night",
+        "I feel like I have insomnia",
+        "I feel insomnia symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have insomnia. Common symptoms include difficulty falling asleep, waking up frequently during the night, waking up too early and not being able to go back to sleep, daytime tiredness or sleepiness, irritability, and difficulty concentrating. To manage insomnia, establish a regular sleep schedule, create a relaxing bedtime routine, limit daytime naps, avoid caffeine and electronics before bed, and ensure your sleep environment is comfortable. Cognitive behavioral therapy for insomnia (CBT-I) and medications may also be recommended by a healthcare professional."
+      ]
+    },
+    
+    {
+      "tag": "uti",
+      "patterns": [
+        "I have a UTI",
+        "I think I have a urinary tract infection",
+        "I'm feeling symptoms of a UTI",
+        "It burns when I urinate",
+        "I have to urinate frequently",
+        "I feel like I have a UTI",
+        "I feel UTI symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have a urinary tract infection (UTI). Common symptoms include a strong, persistent urge to urinate, burning sensation when urinating, passing frequent, small amounts of urine, cloudy or strong-smelling urine, pelvic pain, and in some cases, fever or chills. To manage a UTI, drink plenty of water, urinate frequently, and avoid irritants like caffeine and alcohol. Over-the-counter pain relievers and antibiotics prescribed by a healthcare professional are often necessary to treat a UTI. It's important to seek medical attention promptly."
+      ]
+    },
+    
+    {
+      "tag": "heartburn",
+      "patterns": [
+        "I have heartburn",
+        "I think I have heartburn",
+        "I'm feeling symptoms of heartburn",
+        "My chest burns after eating",
+        "I have acid reflux after meals",
+        "I feel like I have heartburn",
+        "I feel heartburn symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have heartburn. Common symptoms include a burning sensation in the chest or throat, chest pain, difficulty swallowing, sour taste in the mouth, and regurgitation of food or sour liquid. To manage heartburn, avoid trigger foods like spicy or fatty foods, eat smaller meals, avoid lying down after eating, and elevate the head of your bed. Over-the-counter antacids or acid-reducing medications may also help. Consult a healthcare professional for personalized advice and treatment."
+      ]
+    },
+    
+    {
+      "tag": "eczema",
+      "patterns": [
+        "I have eczema",
+        "I think I have eczema",
+        "I'm feeling symptoms of eczema",
+        "My skin is dry and itchy",
+        "I have red patches on my skin",
+        "I feel like I have eczema",
+        "I feel eczema symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have eczema. Common symptoms include dry, sensitive skin, itching, redness, and inflammation. To manage eczema, moisturize regularly with a thick, unscented moisturizer, avoid irritants like harsh soaps and detergents, take short, lukewarm baths or showers, and wear soft, breathable fabrics. Over-the-counter or prescription corticosteroid creams, antihistamines, or other medications may be recommended by a healthcare professional for flare-ups. Consult a dermatologist for personalized advice and treatment."
+      ]
+    },
+    
+    {
+      "tag": "constipation",
+      "patterns": [
+        "I have constipation",
+        "I think I have constipation",
+        "I'm feeling constipated",
+        "I haven't had a bowel movement in days",
+        "My stomach feels bloated",
+        "I feel like I have constipation",
+        "I feel constipation symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have constipation. Common symptoms include infrequent bowel movements, difficulty passing stools, abdominal discomfort, bloating, and feeling like you haven't completely emptied your bowels. To manage constipation, increase fiber intake through fruits, vegetables, and whole grains, drink plenty of water, exercise regularly, and establish regular bathroom habits. Over-the-counter laxatives or stool softeners may also help, but consult a healthcare professional for personalized advice and treatment."
+      ]
+    },
+    
+    {
+      "tag": "ear_infection",
+      "patterns": [
+        "I have an ear infection",
+        "I think I have an ear infection",
+        "My ear hurts",
+        "My ear feels blocked",
+        "I have fluid draining from my ear",
+        "I feel like I have an ear infection",
+        "I feel ear infection symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have an ear infection. Common symptoms include ear pain, earache, difficulty hearing, feeling of fullness in the ear, drainage from the ear, and fever. To manage an ear infection, apply a warm compress to the ear, over-the-counter pain relievers may help with pain and fever, and consult a healthcare professional for antibiotic treatment if necessary."
+      ]
+    },
+    
+    {
+      "tag": "gastroenteritis",
+      "patterns": [
+        "I have gastroenteritis",
+        "I think I have the stomach flu",
+        "I'm feeling symptoms of gastroenteritis",
+        "I have diarrhea and vomiting",
+        "My stomach hurts and I'm nauseous",
+        "I feel like I have gastroenteritis",
+        "I feel gastroenteritis symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have gastroenteritis, commonly known as the stomach flu. Common symptoms include diarrhea, vomiting, nausea, stomach cramps, and sometimes fever. To manage gastroenteritis, drink plenty of fluids to prevent dehydration, eat bland foods like toast or crackers, avoid dairy and spicy foods, and rest. Over-the-counter medications for diarrhea or nausea may be helpful, but consult a healthcare professional if symptoms worsen or persist."
+      ]
+    },
+    
+    {
+      "tag": "sunburn",
+      "patterns": [
+        "I have sunburn",
+        "I think I have sunburn",
+        "My skin is red and painful",
+        "My skin feels hot and sunburned",
+        "I got sunburned",
+        "I feel like I have sunburn",
+        "I feel sunburn symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have sunburn. Common symptoms include red, painful skin that feels hot to the touch, swelling, and in severe cases, blisters. To manage sunburn, cool the skin with cold compresses or cool baths, apply soothing lotions like aloe vera, drink plenty of water to hydrate, and avoid further sun exposure. Over-the-counter pain relievers may help with discomfort. Seek medical attention if you develop blisters, severe pain, or signs of infection."
+      ]
+    },
+    
+    {
+      "tag": "conjunctivitis",
+      "patterns": [
+        "I have conjunctivitis",
+        "I think I have pink eye",
+        "My eye is red and itchy",
+        "My eye is watering",
+        "I feel like I have conjunctivitis",
+        "I feel conjunctivitis symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have conjunctivitis, also known as pink eye. Common symptoms include redness in the white of the eye or inner eyelid, increased tear production, itching, burning sensation, and discharge that may be yellow, green, or white. To manage conjunctivitis, apply warm compresses to the affected eye, avoid touching or rubbing your eyes, wash hands frequently, and use over-the-counter eye drops for relief. Consult a healthcare professional if symptoms worsen or do not improve."
+      ]
+    },
+    
+    {
+      "tag": "gastritis",
+      "patterns": [
+        "I have gastritis",
+        "I think I have gastritis",
+        "I'm feeling symptoms of gastritis",
+        "My stomach hurts after eating",
+        "I feel bloated and nauseous",
+        "I feel like I have gastritis",
+        "I feel gastritis symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have gastritis. Common symptoms include stomach pain or discomfort, bloating, nausea, vomiting, indigestion, and loss of appetite. To manage gastritis, avoid spicy, acidic, or fatty foods, eat smaller meals more frequently, avoid alcohol and tobacco, and consider over-the-counter antacids or medications prescribed by a healthcare professional. It's important to consult a doctor for proper diagnosis and treatment."
+      ]
+    },
+    
+    {
+      "tag": "tennis_elbow",
+      "patterns": [
+        "I have tennis elbow",
+        "I think I have tennis elbow",
+        "My elbow hurts when I move it",
+        "I have pain on the outside of my elbow",
+        "I feel like I have tennis elbow",
+        "I feel tennis elbow symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have tennis elbow, also known as lateral epicondylitis. Common symptoms include pain or tenderness on the outside of the elbow and difficulty gripping or lifting objects. To manage tennis elbow, rest the affected arm, apply ice packs to reduce inflammation, use over-the-counter pain relievers, and perform stretching and strengthening exercises recommended by a healthcare professional or physical therapist. In some cases, a brace or corticosteroid injections may be necessary. Consult a healthcare professional for personalized treatment."
+      ]
+    },
+    
+    {
+      "tag": "bronchitis",
+      "patterns": [
+        "I have bronchitis",
+        "I think I have bronchitis",
+        "I'm feeling symptoms of bronchitis",
+        "I have a persistent cough with mucus",
+        "I feel short of breath and wheezy",
+        "I feel like I have bronchitis",
+        "I feel bronchitis symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have bronchitis. Common symptoms include persistent cough with mucus, chest discomfort, fatigue, shortness of breath, and sometimes fever or chills. To manage bronchitis, rest, stay hydrated, use over-the-counter medications for cough and pain relief, and consider using a humidifier or steam inhalation to ease breathing. Antibiotics may be prescribed for bacterial bronchitis, so consult a healthcare professional for proper diagnosis and treatment."
+      ]
+    },
+    
+    {
+      "tag": "plantar_fasciitis",
+      "patterns": [
+        "I have plantar fasciitis",
+        "I think I have plantar fasciitis",
+        "My heel hurts when I walk",
+        "I have pain in my foot when I stand",
+        "I feel like I have plantar fasciitis",
+        "I feel plantar fasciitis symptoms"
+      ],
+      "responses": [
+        "It sounds like you may have plantar fasciitis. Common symptoms include stabbing pain near the heel, especially in the morning or after long periods of rest, and pain that improves with activity but worsens after prolonged standing or walking. To manage plantar fasciitis, rest the foot, apply ice to reduce inflammation, stretch the calf and foot muscles, wear supportive shoes or inserts, and consider physical therapy. Consult a healthcare professional for personalized treatment options."
+      ]
+    },
+    
+
+
+    {
+      "tag": "Acne",
+      "patterns": [ "blackheads", "pimples", "face pimples", "neck pimples", "shoulder pimples" ],
+      "responses": [ "According to your symptoms you might have Acne", "You have Acne", "I suppose you have Acne" ]
+    },
+
+    {
+      "tag": "Attention Deficit Disorder (ADHD)",
+      "patterns": [ "impulsivity", "hyperactivity", "lack of focus", "messy works", "restlessness" ],
+      "responses": [ "According to your symptoms you might have Attention Deficit Disorder", "You have Attention Deficit Disorder", "I suppose you have Attention Deficit Disorder" ]
+
+    },
+
+    {
+      "tag": "Allergies",
+      "patterns": [ "sneezing", "itchy eyes", "coughing", "watery eyes", "itchy nose" ],
+      "responses": [ "According to your symptoms you might have Allergies", "You have Allergies", "I suppose you have Allergies" ]
+    },
+    {
+      "tag": "Alzheimers",
+      "patterns": [ "forgetful", "confusion with time", "poor judgement" ],
+      "responses": [ "According to your symptoms you might have Alzheimers", "You have Alzheimers", "I suppose you have Alzheimers" ]
+    },
+    {
+      "tag": "Ankylosing Spondylitis",
+      "patterns": [ "loss of appetite", "weight loss", "difficulty walking", "pain in heels", "pain in hips", "pain in jaw", "decreased energy", "heart failure", "heart block", "pain in lower back", "stiffness" ],
+      "responses": [ "According to your symptoms you might have Ankylosing Spondylitis", "You have Ankylosing Spondylitis", "I suppose you have Ankylosing Spondylitis" ]
+
+    },
+    {
+      "tag": "Anorexia",
+      "patterns": [ "terrifies of gaining weight", "hard to sleep through night", "dizziness", "hair is falling out", "constipation", "swollen arms", "swollen legs", "fainting", "underweight" ],
+      "responses": [ "According to your symptoms you might have Anorexia", "You have Anorexia", "I suppose you have Anorexia" ]
+    },
+    {
+      "tag": "Anxiety or Panic Disorder",
+      "patterns": [ "rapid heartbeat", "fast heartbeat", "sweating", "shaking", "shortness of breath", "fear of death", "chest pain", "faintness" ],
+      "responses": [ "According to your symptoms you might have Anxiety or Panic Disorder", "You have Anxiety or Panic Disorder", "I suppose you have Panic Disorder" ]
+    },
+    {
+      "tag": "Arthritis",
+      "patterns": [ "lack of movement", "sored area", "joint pain" ],
+      "responses": [ "According to your symptoms you might have any type of Arthritis", "You have any type of Arthritis", "I suppose you have any type of Arthritis" ]
+    },
+    {
+      "tag": "Antitrypsin Deficiency",
+      "patterns": [ "jaundice", "yellow skin", "coughing up blood", "yellow urine" ],
+      "responses": [ "According to your symptoms you might have Antitrypsin Deficiency", "You have Antitrypsin Deficiency", "I suppose you have Antitrypsin Deficiency" ]
+    },
+    {
+      "tag": "Abdominal Migraine",
+      "patterns": [ "dark shadows under eyes", "be pale", "have little energy", "feeling drowsy", "unable to eat" ],
+      "responses": [ "According to your symptoms you might have Abdominal Migraine", "You have Abdominal Migraine", "I suppose you have Abdominal Migraine" ]
+    },
+    {
+      "tag": "Amyloidosis",
+      "patterns": [ "sudden weight loss", "feeling of fullness", "shortness of breath", "tongue swelling", "severe fatigue", "severe weakness", "irregular heartbeat" ],
+      "responses": [ "According to your symptoms you might have Amyloidosis", "You have Amyloidosis", "I suppose you have Amyloidosis" ]
+
+    },
+    {
+      "tag": "Abscessed Tooth",
+      "patterns": [ "trouble swallowing", "trouble breathing", "bad taste", "gum redness", "sensitivity", "bad odor in mouth" ],
+      "responses": [ "According to your symptoms you might have Abscessed Tooth", "You have Abscessed Tooth", "I suppose you have Abscessed Tooth" ]
+    },
+    {
+      "tag": "Amenorrhea",
+      "patterns": [ "hair loss", "change in vision", "hair growth on face", "pain in pelvic area" ],
+      "responses": [ "According to your symptoms you might have Amenorrhea", "You have Amenorrhea", "I suppose you have Amenorrhea" ]
+    },
+    {
+      "tag": "Absence Seizure",
+      "patterns": [ "sudden stop in motion", "lip smacking", "eyelid fluttering", "finger rubbing" ],
+      "responses": [ "According to your symptoms you might have Absence Seizure", "You have Absence Seizure", "I suppose you have Absence Seizure" ]
+    },
+    {
+      "tag": "Sleep Apnea",
+      "patterns": [ "loud snoring", "loud gasping", "loud choking", "excessive sweating at night" ],
+      "responses": [ "According to your symptoms you might have Sleep Apnea", "You have Sleep Apnea", "I suppose you have Sleep Apnea" ]
+    },
+    {
+      "tag": "Achalasia",
+      "patterns": [ "food coming back up into the throat", "nighttime coughing", "heart is burning", "hurt is belching" ],
+      "responses": [ "According to your symptoms you might have Achalasia", "You have Achalasia", "I suppose you have Achalasia" ]
+    },
+    {
+      "tag": "Appendicitis",
+      "patterns": [ "pain in lower belly", "pain near navel", "belly pain and vomiting", "swollen belly", "severe cramps", "difficulty in peeing", "constipation with gas" ],
+      "responses": [ "According to your symptoms you might have Appendicitis", "You have Appendicitis", "I suppose you have Appendicitis" ]
+    },
+    {
+      "tag": "Aparaxia of Speech",
+      "patterns": [ "unable to form proper words", "unable to say complex words", "speech inconsistencies", "distortion in vowel sounds" ],
+      "responses": [ "According to your symptoms you might have Aparaxia of Speech", "You have Aparaxia of Speech", "I suppose you have Aparaxia of Speech" ]
+    },
+    {
+      "tag": "Arachnoiditis",
+      "patterns": [ "weakness in the legs", "numbness in legs", "ringing in ears", "bladder problems" ],
+      "responses": [ "According to your symptoms you are suffering from Arachnoiditis", "You have Arachnoiditis", "I suppose you have Arachnoiditis" ]
+    },
+    {
+      "tag": "Acute Respiratory Distress Syndrome (ARDS)",
+      "patterns": [ "shortness of breath", "low blood pressure", "fast breathing", "fast heartbeat", "exhaustion", "blue tinted lips", "blue tinted nails" ],
+      "responses": [ "According to your symptoms you are suffering from Acute Respiratory Distress Syndrome (ARDS)", "You have Acute Respiratory Distress Syndrome (ARDS)", "I suppose you have Acute Respiratory Distress Syndrome (ARDS)" ]
+    },
+    {
+      "tag": "Anemia",
+      "patterns": [ "fatigue", "weakness", "pale skin", "yellowish skin", "shortness of breath", "cold hands", "cold feet" ],
+      "responses": [ "According to your symptoms you are suffering from Anemia", "You have Anemia", "I suppose you have Anemia" ]
+    },
+    {
+      "tag": "Arrhythmia",
+      "patterns": [ "palpitations", "chest pounding", "breath shortness", "blurry vision", "anxiety" ],
+      "responses": [ "According to your symptoms you might have Arrhythmia", "You have Arrhythmia", "I suppose you have Arrhythmia" ]
+    },
+    {
+      "tag": "Asthma",
+      "patterns": [ "coughing at night", "wheezing", "chest pain", "frequent cough", "feeling tired", "easily upset", "trouble in sleeping", "pale face", "sweaty face" ],
+      "responses": [ "According to your symptoms you might have Asthma", "You have Asthma", "I suppose you have Asthma" ]
+    },
+    {
+      "tag": "Autism",
+      "patterns": [ "delayed language", "delayed learning", "delayed movement", "unusual mood", "unusual eating habits", "unusual sleeping habits", "no facial expression" ],
+      "responses": [ "According to your symptoms you might have Autism", "You have Autism", "I suppose you have Autism" ]
+    },
+    {
+      "tag": "Blepharitis",
+      "patterns": [ "feels like something in the eye", "a burning feeling in the eye", "blurry vision", "sensitivity to light", "dry eyes", "red eyes", "watery eyes" ],
+      "responses": [ "According to your symptoms you might have Blepharitis", "You have Blepharitis", "I suppose you have Blepharitis" ]
+    },
+    {
+      "tag": "Bacterial Arthritis",
+      "patterns": [ "having chills", "unable to move the limb with the infected joint", "Severe pain in the affected joint" ],
+      "responses": [ "According to your symptoms you might have Bacterial Arthritis", "You have Bacterial Arthritis", "I suppose you have Backterial Arthritis" ]
+    },
+    {
+      "tag": "Bacterial Meningitis",
+      "patterns": [ "feeling confused", "numbness in my face", "neck is stiff", "hard time concentrating", "seizures", "lack of appetite" ],
+      "responses": [ "According to your symptoms you might have Bacterial Meningitis", "You have Meningitis", "I suppose you have Meningitis" ]
+    },
+    {
+      "tag": "Benign Prostate Enlargement(BPE)",
+      "patterns": [ "makes it difficult o urinate", "need to urinate frequently", "wake up frequently in the night to urinate", "difficulty in passing urine" ],
+      "responses": [ "According to your symptoms you might have Benign Prostate Enlargement Disease", "You have Benign Prostate Enlargement Disease", "I suppose you have Benign Prostate Enlargement Disease" ]
+    },
+    {
+      "tag": "Bipolar Disorder",
+      "patterns": [ "feeling depressed", "lacking energy", "loss of interest", "feeling worthless", "being pessimistic about everything", "being delusional", "suicidal thoughts", "feeling full of energy", "easily irritated" ],
+      "responses": [ "According to your symptoms you might have Bipolar Disorder Disease", "You have Bipolar Disorder Disease", "I suppose you have Bipolar Disorder Disease" ]
+    },
+    {
+      "tag": "Bronchiectasis",
+      "patterns": [ "persistent cough with large amount of phlegm", "coughing up blood", "coughing up blood-stained phlegm" ],
+      "responses": [ "According to your symptoms you might have Bronchiectasis Disease", "You have Bronchiectasis Disease", "I suppose you have Bronchiectasis Disease" ]
+
+    },
+    {
+      "tag": "Bronchitis",
+      "patterns": [ "blocked nose", "runny or blocked nose", "tiredness", "cough with phlegm", "cough with yellow gray phlegm" ],
+      "responses": [ "According to your symptoms you might have Bronchitis Disease", "You have Bronchitis Disease", "I suppose you have Bronchitis Disease" ]
+    },
+    {
+      "tag": "Bulimia",
+      "patterns": [ "over eating", "think about food all time", "overeats", "focus in body image" ],
+      "responses": [ "According to your symptoms you might have Bulimia Disease", "You have Bulimia Disease", "I suppose you have Bulimia Disease" ]
+    },
+    {
+      "tag": "Catarrh",
+      "patterns": [ "constantly need to clear throat", "blocked or stuffy nose can't clear", "throat blocked", "reduced sense of smell", "reduced sense of taste", "temporary hearing loss" ],
+      "responses": [ "According to your symptoms you might have Catarrh Disease", "You have Catarrh Disease", "I suppose you have Catarrh Disease" ]
+    },
+    {
+      "tag": "Cellulitis",
+      "patterns": [ "red skin", "hot skin", "swollen skin", "tender skin" ],
+      "responses": [ "According to your symptoms you might have Cellulitis Disease", "You have Cellulitis Disease", "I suppose you have Cellulitis Disease" ]
+    },
+    {
+      "tag": "Chest Infection",
+      "patterns": [ "rapid heart beat", "chest tightness", "feeling confused" ],
+      "responses": [ "According to your symptoms you might have Chest Infection", "You have Chest Infection", "I suppose you have Chest Infection" ]
+    },
+    {
+      "tag": "Chest Pain",
+      "patterns": [ "chest feels heavy", "chest feels tight", "pain in chest and arms back and jaw", "breathlessness" ],
+      "responses": [ "According to your symptoms you might have Chest Pain", "You have Chest Pain", "I suppose you have Chest Pain" ]
+    },
+    {
+      "tag": "Chronic Fatigue Syndrome",
+      "patterns": [ "sleep disturbance", "poor temperature control", "dizziness", "hyper sensitive to light", "hyper sensitive to sound", "speech problem", "language problem", "problem with concentration", "problem with thinking" ],
+      "responses": [ "According to your symptoms you might have Chronic Fatigue Syndrome", "You have Chronic Fatigue Syndrome", "I suppose you have Chronic Fatigue Syndrome" ]
+    },
+    {
+      "tag": "Common Cold",
+      "patterns": [ "sore throat", "sneezing", "coughing", "hoarse voice", "headache", "ear ache", "blocked nose", "runny nose" ],
+      "responses": [ "According to your symptoms you might have Common Cold", "You have Common Cold", "I suppose you have Common Cold" ]
+    },
+    {
+      "tag": "Conjunctivitis",
+      "patterns": [ "eye redness", "burning sensation in eyes", "sticky coating on eye lashes", "disturbed vision", "intense red in eyes" ],
+      "responses": [ "According to your symptoms you might have Conjunctivitis", "You have Conjunctivitis", "I suppose you have Conjunctivitis" ]
+    },
+    {
+      "tag": "Dehydration",
+      "patterns": [ "light-headedness", "tiredness", "dry mouth", "dry lips", "infrequent urine" ],
+      "responses": [ "According to your symptoms you might have Dehydration", "You have Dehydration", "I suppose you have Dehydration" ]
+    },
+    {
+      "tag": "Dental Abscess",
+      "patterns": [ "intense pain in tooth", "intense pain in gum", "tooth pain spreads to ear jaw and neck", "tender tooth", "discoloured tooth", "bad breath", "sensitive to hot and cold" ],
+      "responses": [ "According to your symptoms you might have Dental Abscess", "You have Dental Abscess", "I suppose you have Dental Abscess" ]
+    },
+    {
+      "tag": "Depression",
+      "patterns": [ "continuous sadness", "mood off", "losing interest in things", "losing motivation", "feeling anxious", "feeling guilty", "feeling helpless", "feeling hopeless", "low self esteem", "speaking slower than usual", "feeling worried" ],
+      "responses": [ "According to your symptoms you might have Depression", "You have Depression", "I suppose you have Depression" ]
+    },
+    {
+      "tag": "Diabetes",
+      "patterns": [ "feeling very thirsty", "loss of muscle bulk", "feeling very tired", "wounds heal slowly" ],
+      "responses": [ "According to your symptoms you might have Diabetes", "You have Diabetes", "I suppose you have Diabetes" ]
+    },
+    {
+      "tag": "Diarrhoea",
+      "patterns": [ "stomach cramps", "pale skin", "cold hands", "cold feet", "feeling drowsy", "rapid heartbeat" ],
+      "responses": [ "According to your symptoms you might have Diarrhoea", "You have Diarrhoea", "I suppose you have Diarrhoea" ]
+    },
+    {
+      "tag": "Dystonia",
+      "patterns": [ "muscle spasms", "abnormal posture", "twisted posture", "foot turning inwards", "body parts jerking rapidly" ],
+      "responses": [ "According to your symptoms you might have Dystonia", "You have Dystonia", "I suppose you have Dystonia" ]
+    },
+    {
+      "tag": "Epilepsy",
+      "patterns": [ "experienced the events before", "unusual smell or taste", "tingling sensation in arms and legs", "sudden feeling of fear or joy" ],
+      "responses": [ "According to your symptoms you might have Epilepsy", "You have Epilepsy", "I suppose you have Epilepsy" ]
+    },
+    {
+      "tag": "Escherichia Coli",
+      "patterns": [ "diarrhoea", "stomach cramps", "occasionally fever" ],
+      "responses": [ "According to your symptoms you might have Escherichia Coli", "You have Escherichia Coli", "I suppose you have Escherichia Coli" ]
+    },
+    {
+      "tag": "Flu",
+      "patterns": [ "sudden fever", "dry cough", "chesty cough", "chills", "aching muscles", "sore throat" ],
+      "responses": [ "According to your symptoms you might have Flu", "You have Flu", "I suppose you have Flu" ]
+    },
+    {
+      "tag": "Fetal alcohol spectrum disorder",
+      "patterns": [ "hyperactivity", "impulsivity", "sensory difficulties", "attention deficiency" ],
+      "responses": [ "According to your symptoms you might have Fetal alcohol spectrum disorder", "You have Fetal alcohol spectrum disorder", "I suppose you have Fetal alcohol spectrum disorder" ]
+    },
+    {
+      "tag": "Food poisoning",
+      "patterns": [ "nausea", "diarrhoea", "abdominal pain", "chills", "aching muscles", "fever", "stomach cramps", "vomiting" ],
+      "responses": [ "According to your symptoms you might have Food poisoning", "You have Food poisoning", "I suppose you have Food poisoning" ]
+    },
+    {
+      "tag": "Fungal nail infection",
+      "patterns": [ "discolouration of the nail", "brittle nails", "crumbly nails", "distorted nails" ],
+      "responses": [ "According to your symptoms you might have Fungal nail infection", "You have Fungal nail infection", "I suppose you have Fungal nail infection" ]
+    },
+    {
+      "tag": "Gallbladder cancer",
+      "patterns": [ "abdominal pain", "stomach pain", "jaundice", "loss of appetite", "swollen stomach", "weight loss" ],
+      "responses": [ "According to your symptoms you might have Gallbladder cancer", "You have Gallbladder cancer", "I suppose you have Gallbladder cancer" ]
+    },
+    {
+      "tag": "Gallstones",
+      "patterns": [ "jaundice", "persistent abdominal pain", "fever" ],
+      "responses": [ "According to your symptoms you might have Gallstones", "You have Gallstones", "I suppose you have Gallstones" ]
+    },
+    {
+      "tag": "Ganglion cyst",
+      "patterns": [ "joint pain", "cysts in wrist", "swelling" ],
+      "responses": [ "According to your symptoms you might have Ganglion cyst", "You have Ganglion cyst", "I suppose you have Ganglion cyst" ]
+    },
+    {
+      "tag": "Gastroenteritis",
+      "patterns": [ "diarrhoea", "vomiting", "mild fever", "aching limbs", "headache", "upset stomach", "loss of appetite" ],
+      "responses": [ "According to your symptoms you might have Gastroenteritis", "You have Gastroenteritis", "I suppose you have Gastroenteritis" ]
+    },
+    {
+      "tag": "Gastro-oesophageal reflux disease (GORD)",
+      "patterns": [ "heartburn", "bad breath", "belching", "acid reflux", "pain when swallowing" ],
+      "responses": [ "According to your symptoms you might have Gastro-oesophageal reflux disease (GORD)", "You have Gastro-oesophageal reflux disease (GORD)", "I suppose you have Gastro-oesophageal reflux disease (GORD)" ]
+    },
+    {
+      "tag": "Genital herpes",
+      "patterns": [ "pain peeing", "genital pain", "swelling in groin", "blisters", "vaginal discharge", "rectal pain" ],
+      "responses": [ "According to your symptoms you might have Genital herpes", "You have Genital herpes", "I suppose you have Genital herpes" ]
+    },
+    {
+      "tag": "Genital warts",
+      "patterns": [ "lumps around genitals", "warts", "vaginal outgrowth", "lumps around penis" ],
+      "responses": [ "According to your symptoms you might have Genital warts", "You have Genital warts", "I suppose you have Genital warts" ]
+    },
+    {
+      "tag": "Germ cell tumours",
+      "patterns": [ "lump", "olk-sac tumours" ],
+      "responses": [ "According to your symptoms you might have Germ cell tumours", "You have Germ cell tumours", "I suppose you have Germ cell tumours" ]
+    },
+    {
+      "tag": "Glandular fever",
+      "patterns": [ "fever", "swollen glands", "sore throat", "fatigue", "extreme tiredness" ],
+      "responses": [ "According to your symptoms you might have Glandular fever", "You have Glandular fever", "I suppose you have Glandular fever" ]
+    },
+    {
+      "tag": "Gonorrhoea",
+      "patterns": [ "pain while urinating", "pain in lower abdomen", "bleeding after sex", "swelling of the testicles", "yellow fluid discharge", "increased vaginal discharge" ],
+      "responses": [ "According to your symptoms you might have Gonorrhoea", "You have Gonorrhoea", "I suppose you have Gonorrhoea" ]
+    },
+    {
+      "tag": "Gout",
+      "patterns": [ "joint pain", "shiny skin over joints", "swelling of joints", "tender joints" ],
+      "responses": [ "According to your symptoms you might have Gout", "You have Gout", "I suppose you have Gout" ]
+    },
+    {
+      "tag": "Gum disease",
+      "patterns": [ "bad breath", "bleeding in gums", "swelling in gums", "sore gums", "bleeding while brushing" ],
+      "responses": [ "According to your symptoms you might have Gum disease", "You have Gum disease", "I suppose you have Gum disease" ]
+    },
+    {
+      "tag": "Haemorrhoids (piles)",
+      "patterns": [ "mucus discharge after passing a stool", "itchy bottom", "bleeding after defecating", "soreness in anus", "swelling around anus", "redness around anus" ],
+      "responses": [ "According to your symptoms you might have Haemorrhoids (piles)", "You have Haemorrhoids (piles)", "I suppose you have Haemorrhoids (piles)" ]
+    },
+    {
+      "tag": "Hand, foot and mouth disease",
+      "patterns": [ "coughing", "sore throat", "sore mouth", "loss of appetite", "fever", "abdominal pain", "mouth ulcers", "blisters", "spotty rash" ],
+      "responses": [ "According to your symptoms you might have Hand, foot and mouth disease", "You have Hand, foot and mouth disease", "I suppose you have Hand, foot and mouth disease" ]
+    },
+    {
+      "tag": "Hay fever",
+      "patterns": [ "sneezing", "itchy eyes", "runny nose" ],
+      "responses": [ "According to your symptoms you might have Hay fever", "You have Hay fever", "I suppose you have Hay fever" ]
+    },
+    {
+      "tag": "Head and neck cancer",
+      "patterns": [ "persistent mouth ulcers", "lump in mouth", "persistent hoarseness", "a persistent cough", "lump or swelling in neck", "shortness of breath", "noisy breathing", "difficulty or pain when swallowing", "numbness in face", "drooping on one side of face", "nosebleeds", "a persistent blocked nose", "decreased sense of smell", "hearing loss" ],
+      "responses": [ "According to your symptoms you might have Head and neck cancer", "You have Head and neck cancer", "I suppose you have Head and neck cancer" ]
+    },
+    {
+      "tag": "Head lice and nits",
+      "patterns": [ "itchy scalp", "rash on the back of the neck", "small white eggs or nits in the hair" ],
+      "responses": [ "According to your symptoms you might have Head lice and nits", "You have Head lice and nits", "I suppose you have Head lice and nits" ]
+    },
+    {
+      "tag": "Headaches",
+      "patterns": [ "stress", "dehydration", "nausea", "vomiting", "ncreased sensitivity to light or sound", "watering or red eye", "blocked or runny nose" ],
+      "responses": [ "According to your symptoms you might have Headaches", "You have Headaches", "I suppose you have Headaches" ]
+    },
+    {
+      "tag": "Hearing loss",
+      "patterns": [ "difficulty hearing", "misunderstanding other people", "asking people to repeat themselves" ],
+      "responses": [ "According to your symptoms you might have Hearing loss", "You have Hearing loss", "I suppose you have Hearing loss" ]
+    },
+    {
+      "tag": "Heart failure",
+      "patterns": [ "breathlessness", "tiredness and lethargy", "leg swelling", "loss of appetite" ],
+      "responses": [ "According to your symptoms you might have Heart failure", "You have Heart failure", "I suppose you have Heart failure" ]
+    },
+    {
+      "tag": "Hepatitis A",
+      "patterns": [ "joint and muscle pain", "fever", "loss of appetite", "itchy skin", "dark urine", "pale stools", "jaundice", "tiredness" ],
+      "responses": [ "According to your symptoms you might have Hepatitis A", "You have Hepatitis A", "I suppose you have Hepatitis A" ]
+    },
+    {
+      "tag": "Hepatitis B",
+      "patterns": [ "loss of appetite", "diarrhoea", "abdominal pain", "tiredness", "fever", "flu" ],
+      "responses": [ "According to your symptoms you might have Hepatitis B", "You have Hepatitis B", "I suppose you have Hepatitis B" ]
+    },
+    {
+      "tag": "Hepatitis C",
+      "patterns": [ "tiredness", "flu", "loss of appetite", "abdominal pain", "muscle ache", "fever" ],
+      "responses": [ "According to your symptoms you might have Hepatitis C", "You have Hepatitis C", "I suppose you have Hepatitis C" ]
+    },
+    {
+      "tag": "Hiatus hernia",
+      "patterns": [ "weak diaphragm", "pressure on abdomen", "leaking stomach acid", "scarring on stomach" ],
+      "responses": [ "According to your symptoms you might have Hiatus hernia", "You have Hiatus hernia", "I suppose you have Hiatus hernia" ]
+    },
+    {
+      "tag": "High cholesterol",
+      "patterns": [ "overweight", "high blood pressure", "diabetes", "stroke", "heart attack" ],
+      "responses": [ "According to your symptoms you might have High cholesterol", "You have High cholesterol", "I suppose you have High cholesterol" ]
+    },
+    {
+      "tag": "HIV",
+      "patterns": [ "fever", "swollen glands", "rash", "upset stomach", "headache", "muscle pain", "joint pain" ],
+      "responses": [ "According to your symptoms you might have HIV", "You have HIV", "I suppose you have HIV" ]
+    },
+    {
+      "tag": "Huntington's disease",
+      "patterns": [ "problem in movement", "problem in cognition", "mood swings", "personality changes", "irritability", "" ],
+      "responses": [ "According to your symptoms you might have Huntington's disease", "You have Huntington's disease", "I suppose you have Huntington's disease", "fidgety movements" ]
+    },
+    {
+      "tag": "Hyperglycaemia (high blood sugar)",
+      "patterns": [ "increased thirst", "dry mouth", "tiredness", "blurred vision", "unintentional weight loss", "skin infection", "thrush", "recurrent infections", "bladder infections", "frequent urge to urinate" ],
+      "responses": [ "According to your symptoms you might have Hyperglycaemia (high blood sugar)", "You have Hyperglycaemia (high blood sugar)", "I suppose you have Hyperglycaemia (high blood sugar)" ]
+    },
+    {
+      "tag": "Hyperhidrosis",
+      "patterns": [ "excessive sweating", "socially withdrawn", "swelling in armpits", "swelling in palms", "swelling in groin", "swelling in soles", "swelling in face and chest" ],
+      "responses": [ "According to your symptoms you might have Hyperhidrosis", "You have Hyperhidrosis", "I suppose you have Hyperhidrosis" ]
+    },
+    {
+      "tag": "Hypoglycaemia (low blood sugar)",
+      "patterns": [ "hunger", "trembling", "shakiness", "sweating", "difficulty concentrating", "disturbed sleep", "confused upon waking" ],
+      "responses": [ "According to your symptoms you might have Hypoglycaemia (low blood sugar)", "You have Hypoglycaemia (low blood sugar)", "I suppose you have Hypoglycaemia (low blood sugar)" ]
+    },
+    {
+      "tag": "Idiopathic pulmonary fibrosis",
+      "patterns": [ "shortness of breath", "tiredness", "persistent dry cough", "loss of appetite", "loss of weight", "swollen fingertips", "clubbed fingers" ],
+      "responses": [ "According to your symptoms you might have Idiopathic pulmonary fibrosis", "You have Idiopathic pulmonary fibrosis", "I suppose you have Idiopathic pulmonary fibrosis" ]
+    },
+    {
+      "tag": "Impetigo",
+      "patterns": [ "red sores around nose", "fever", " swollen glands", "blisters" ],
+      "responses": [ "According to your symptoms you might have Impetigo", "You have Impetigo", "I suppose you have Impetigo" ]
+    },
+    {
+      "tag": "Indigestion",
+      "patterns": [ "bloatedness", "belching", "regurgitation", "nausea", "feeling full" ],
+      "responses": [ "According to your symptoms you might have Indigestion", "You have Indigestion", "I suppose you have Indigestion" ]
+    },
+    {
+      "tag": "Ingrown toenail",
+      "patterns": [ "inflammation in toe", "yellow pus from toe", "oedema", "curling of nail" ],
+      "responses": [ "According to your symptoms you might have Ingrown toenail", "You have Ingrown toenail", "I suppose you have Ingrown toenail" ]
+    },
+    {
+      "tag": "Inherited heart conditions",
+      "patterns": [ "palpitations", "fainting", "blackouts" ],
+      "responses": [ "According to your symptoms you might have Inherited heart conditions", "You have Inherited heart conditions", "I suppose you have Inherited heart conditions" ]
+    },
+    {
+      "tag": "Insomnia",
+      "patterns": [ "difficulty in sleeping", "awake for long periods", "not feeling refreshed after waking", "difficulty napping", "difficulty concentrating", "irritable" ],
+      "responses": [ "According to your symptoms you might have Insomnia", "You have Insomnia", "I suppose you have Insomnia" ]
+    },
+    {
+      "tag": "Iron deficiency anaemia",
+      "patterns": [ "tiredness", "lethargy", "lack of energy", "shortness of breath", "pale complexion", "heart palpitations", "headache", "feeling itchy", "difficulty swallowing", "abnormally smooth tongue", "hair loss" ],
+      "responses": [ "According to your symptoms you might have Iron deficiency anaemia", "You have Iron deficiency anaemia", "I suppose you have Iron deficiency anaemia" ]
+    },
+    {
+      "tag": "Irritable bowel syndrome (IBS)",
+      "patterns": [ "abdominal pain", "diarrhoea", "constipation", "bloating", "excessive flatulence", "lethargy", "heartburn", "cramping" ],
+      "responses": [ "According to your symptoms you might have Irritable bowel syndrome (IBS)", "You have Irritable bowel syndrome (IBS)", "I suppose you have Irritable bowel syndrome (IBS)" ]
+    },
+    {
+      "tag": "Irritable hip",
+      "patterns": [ "slightly higher temperature", "pain in the knee", "thigh pain", "estricted movement in hip joints", "limping", "hip pain" ],
+      "responses": [ "According to your symptoms you might have Irritable hip", "You have Irritable hip", "I suppose you have Irritable hip" ]
+    },
+    {
+      "tag": "Itching",
+      "patterns": [ "Redness", "leathery or scaly patches", "scratch marks", "blisters", "cracked skin", "itchy skin", "itchness all over body", "dry skin", "persistent itch" ],
+      "responses": [ "According to your symptoms you might have Itching", "You have Itching", "I suppose you have Itching" ]
+    },
+    {
+      "tag": "Itchy bottom",
+      "patterns": [ "persistent anal itch", "anal bleeding", "stool leakage", "severe rectal itch", "itchness in  bottom" ],
+      "responses": [ "According to your symptoms you might have Itchy bottom", "You have Itchy bottom", "I suppose you have Itchy bottom" ]
+    },
+    {
+      "tag": "Kaposi's sarcoma",
+      "patterns": [ "uncomfortable swelling", "nausea", "vomiting", "", "coughing up blood", "chest pain", "stomach pain" ],
+      "responses": [ "According to your symptoms you might have Kaposi's sarcoma", "You have Kaposi's sarcoma", "I suppose you have Kaposi's sarcoma" ]
+    },
+    {
+      "tag": "Kidney infection",
+      "patterns": [ "pus in kidney", "shivering", "pain in the back", "painful urination", "fever" ],
+      "responses": [ "According to your symptoms you might have Kidney infection", "You have Kidney infection", "I suppose you have Kidney infection" ]
+    },
+    {
+      "tag": "Kidney stones",
+      "patterns": [ "persistent ache in lower back", "periods of intense pain", "nausea", "pain while urination", "blood in urine", "gfrequent urge to urinate", "restlessness" ],
+      "responses": [ "According to your symptoms you might have Kidney stones", "You have Kidney stones", "I suppose you have Kidney stones" ]
+    },
+
+    {
+      "tag": "Unknown",
+      "patterns": [],
+      "responses": [ "Sorry I didn't understand what you said", "Sorry I didn't catch that", "Sorry I can't recognize you , Please try again" ]
+    },
+
+    {
+      "tag": "menisy",
+      "patterns": [
+        "who is abdelrahman menisy?",
+        "who's abdelrahman menisy?",
+        "who is menisy?",
+        "who's menisy?",
+        "menisy"
+      ],
+      "responses": [ "He is the team leader and one of AI developers of this project" ]
+    },
+
+    {
+      "tag": "ghaly",
+      "patterns": [
+        "who is mohamed ghaly?",
+        "who's mohamed ghaly?",
+        "who is ghaly?",
+        "who's ghaly?",
+        "ghaly"
+      ],
+      "responses": [ "He is one of application developers of this project" ]
+    },
+
+    {
+      "tag": "nour",
+      "patterns": [
+        "who is nour?",
+        "who's nour?",
+        "who is nour?",
+        "who's nour?",
+        "nour"
+      ],
+      "responses": [ "He is one of application developers of this project" ]
+    },
+
+    {
+      "tag": "Goodbye",
+      "patterns": [
+        "cya",
+        "see you",
+        "bye bye",
+        "See you later",
+        "Goodbye",
+        "I am Leaving",
+        "Bye",
+        "Have a Good day",
+        "talk to you later",
+        "ttyl",
+        "i got to go",
+        "gtg",
+        "thank you",
+        "farewell",
+        "catch you later",
+        "gotta go now",
+        "see you soon",
+        "take care",
+        "so long",
+        "adios",
+        "till next time",
+        "have to run",
+        "leaving now",
+        "until we meet again",
+        "bye for now",
+        "off I go",
+        "until then",
+        "time to say goodbye",
+        "Thanks",
+        "Thank you",
+        "That's helpful"
+      ],
+      "responses": [
+        "Have a Nice day",
+        "Talk to you later!",
+        "GoodBye!",
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Come back soon",
+        "Fond farewells!",
+        "Wishing you a wonderful day!",
+        "Take it easy!",
+        "Au revoir!",
+        "Until next time!",
+        "Parting is such sweet sorrow!",
+        "Stay awesome!",
+        "Goodbye, take care!",
+        "Keep smiling!",
+        "Until we meet again, friend!",
+        "Best wishes on your journey!",
+        "Adieu!",
+        "May the road rise to meet you!",
+        "So long, and thanks for all the fish!",
+        "Until our paths cross again!",
+        "Fare thee well!"
+      ]
+    }
+  ]
+}
