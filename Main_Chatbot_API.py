@@ -97,6 +97,8 @@ def predict_class(sentence):
             return_list.append({'intent': classes[r[0]], 'probability': str(r[1])})
     return return_list
 
+
+
 def get_response(intents_list, intents_json):
     """
     Get response function: 
@@ -104,7 +106,7 @@ def get_response(intents_list, intents_json):
     - Return type: string
     """
     if not intents_list:
-        return "Sorry, I didn't understand that."
+        return {"text_response": "Sorry, I didn't understand that."}
 
     tag = intents_list[0]['intent']
     list_of_intents = intents_json['intents']
