@@ -122,37 +122,17 @@ def get_response(intents_list, intents_json):
 
 
 def process_text_message(txt):
-	"""
-	Processes a text message by predicting the class of the message, getting a response, and returning the result.
-
-	:param txt: The text message to process.
-	:type txt: str
-	:return: The response to the text message.
-	:rtype: str
-	"""
-
-	global res
-	predict = predict_class(txt)
-	res = get_response(predict, intents)
-	return res
-
-
-def text_to_speech(text):
-	# sourcery skip: inline-immediately-returned-variable
-  """
-  Generates a text-to-speech audio file from the input text in the specified language.
-
-  Parameters:
-    text (str): The text to be converted to speech.
-    language (str): The language in which the text should be spoken.
-
-  Returns:
-    str: The filename of the saved audio file.
-  """
-  file_name = f"output_{'en'}.mp3"
-  output = gTTS(text, lang='en', slow=False)
-  output.save(file_name)
-  return file_name
+    """
+    Processes a text message by predicting the class of the message, getting a response, and returning the result.
+    """
+    try:
+        predict = predict_class(txt)
+        if not predict:
+            return {"text_response": "Sorry, I didn't understand that."}
+        res = get_response(predict, intents)
+        return res
+    except Exception as e:
+        return {"text_response": f"Error processing text message: {str(e)}"}
 
 
 
@@ -181,9 +161,30 @@ def process_voice_to_text_message(audio_data):
     except sr.UnknownValueError:
         return {"text_response": "Unable to recognize speech"}
     except sr.RequestError as e:
-        return {"text_response":"Speech recognition service error, check your internet connection"}
+        return {"text_response": "Speech recognition service error, check your internet connection"}
+    except Exception as e:
+        return {"text_response": f"Error processing voice message: {str(e)}"}
 
 
+
+def text_to_speech(text):
+	# sourcery skip: inline-immediately-returned-variable
+  """
+  Generates a text-to-speech audio file from the input text in the specified language.
+
+  Parameters:
+    text (str): The text to be converted to speech.
+    language (str): The language in which the text should be spoken.
+
+  Returns:
+    str: The filename of the saved audio file.
+  """
+  file_name = f"output_{'en'}.mp3"
+  output = gTTS(text, lang='en', slow=False)
+  output.save(file_name)
+  return file_name
+
+
 
 
 @app.post("/medi_text")
@@ -211,6 +212,7 @@ def process_medi_message(user_message: model_input):
     response_data = {"user_message": text_message, "text_response": text_response, "voice_response": encoded_content}
 
     return response_data
+
 
 
 @app.post("/medi_voice")
