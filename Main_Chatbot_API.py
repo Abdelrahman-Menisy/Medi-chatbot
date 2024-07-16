@@ -79,50 +79,43 @@ def bag_of_words(sentence):
 
 
 def predict_class(sentence):
-	# sourcery skip: for-append-to-extend, inline-immediately-returned-variable, list-comprehension
-	"""
-	Generates predictions for the class of a given sentence using a bag of words approach.
+    """
+    Generates predictions for the class of a given sentence using a bag of words approach.
+    """
+    bow = bag_of_words(sentence)
+    res = model.predict(np.array([bow]))[0]
 
-	Parameters:
-	- sentence (str): The input sentence for which the class prediction is to be generated.
+    ERROR_THRESHOLD = 0.25
+    results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
 
-	Returns:
-	- list of dict: A list of dictionaries containing the predicted intent class and its probability.
-	"""
-	bow = bag_of_words(sentence)
-	res = model.predict(np.array([bow]))[0]
+    results.sort(key=lambda x: x[1], reverse=True)
 
-	ERROR_THRESHOLD = 0.25
+    return_list = []
 
-	results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
-
-	results.sort(key=lambda x: x[1], reverse=True)
-
-	return_list = []
-
-	for r in results:
-		return_list.append({'intent': classes[r[0]],
-							'probability': str(r[1])})
-	return return_list
-
+    if results:
+        for r in results:
+            return_list.append({'intent': classes[r[0]], 'probability': str(r[1])})
+    return return_list
 
 def get_response(intents_list, intents_json):
-	# sourcery skip: inline-immediately-returned-variable, use-next
-	"""
-	get_response function: 
-	- Parameters: intents_list (list), intents_json (json)
-	- Return type: string
-	"""
-	tag = intents_list[0]['intent']
-	list_of_intents = intents_json['intents']
+    """
+    Get response function: 
+    - Parameters: intents_list (list), intents_json (json)
+    - Return type: string
+    """
+    if not intents_list:
+        return "Sorry, I didn't understand that."
 
-	result = ''
+    tag = intents_list[0]['intent']
+    list_of_intents = intents_json['intents']
 
-	for i in list_of_intents:
-		if i['tag'] == tag:
-			result = random.choice(i['responses'])
-			break
-	return result
+    result = ''
+
+    for i in list_of_intents:
+        if i['tag'] == tag:
+            result = random.choice(i['responses'])
+            break
+    return result
 
 
 
