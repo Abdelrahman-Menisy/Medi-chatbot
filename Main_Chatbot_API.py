@@ -18,7 +18,7 @@ nltk.download('punkt')
 
 
 model = tf.keras.models.load_model(
-    r"chatbot_model_v4.h5", custom_objects=None, compile=True, safe_mode=True
+    r"chatbot_model_v5.h5", custom_objects=None, compile=True, safe_mode=True
 )
 
 app = FastAPI()
@@ -42,8 +42,8 @@ lemmatizer = WordNetLemmatizer()
 
 intents = json.loads(open(r"intents.json").read())
  
-words = pickle.load(open(r"words_v4.pkl", 'rb'))
-classes = pickle.load(open(r"classes_v4.pkl", 'rb'))
+words = pickle.load(open(r"words_v5.pkl", 'rb'))
+classes = pickle.load(open(r"classes_v5.pkl", 'rb'))
 
 
 
