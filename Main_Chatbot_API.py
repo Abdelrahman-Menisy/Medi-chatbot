@@ -48,7 +48,7 @@ error_messages = {
     "no_message": "No message provided. Please enter a message.",
     "speech_recognition_error": "Unable to recognize speech. Please try again.",
     "speech_recognition_service_error": "Speech recognition service error. Please check your internet connection.",
-    "general_error": "An error occurred. Please try again later.",
+    "general_error": "Sorry, I didn't understand that, please try again in appropriate sentence or questions :).",
     "file_format_error": "File must be in WAV format."
 }
 
