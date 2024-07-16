@@ -80,7 +80,7 @@ def predict_class(sentence):
 
 def get_response(intents_list, intents_json):
     if not intents_list:
-        return {"user_message": "Sorry, I didn't understand that."}
+        return {"text_response": "Sorry, I didn't understand that."}
     tag = intents_list[0]['intent']
     list_of_intents = intents_json['intents']
     result = ''
@@ -94,11 +94,11 @@ def process_text_message(txt):
     try:
         predict = predict_class(txt)
         if not predict:
-            return {"user_message": "Sorry, I didn't understand that."}
+            return {"text_response": "Sorry, I didn't understand that."}
         res = get_response(predict, intents)
         return res
     except Exception as e:
-        return {"user_message": error_messages["general_error"]}
+        return {"text_response": error_messages["general_error"]}
 
 def process_voice_to_text_message(audio_data):
     recognizer = sr.Recognizer()
@@ -110,11 +110,11 @@ def process_voice_to_text_message(audio_data):
         text = recognizer.recognize_google(audio_data, language='en')
         return text
     except sr.UnknownValueError:
-        return {"user_message": error_messages["speech_recognition_error"]}
+        return {"text_response": error_messages["speech_recognition_error"]}
     except sr.RequestError:
-        return {"user_message": error_messages["speech_recognition_service_error"]}
+        return {"text_response": error_messages["speech_recognition_service_error"]}
     except Exception as e:
-        return {"user_message": error_messages["general_error"]}
+        return {"text_response": error_messages["general_error"]}
 
 def text_to_speech(text):
     file_name = f"output_{'en'}.mp3"
@@ -127,11 +127,11 @@ def process_medi_message(user_message: model_input):
     try:
         text_message = user_message.msg.lower()
         if not text_message:
-            return {"user_message": error_messages["no_message"]}
+            return {"text_response": error_messages["no_message"]}
         text_response = process_text_message(text_message)
         voice_response = text_to_speech(text_response)
     except Exception as e:
-        return {"user_message": error_messages["general_error"]}
+        return {"text_response": error_messages["general_error"]}
     with open(voice_response, "rb") as f:
         encoded_content = base64.b64encode(f.read()).decode("utf-8")
     response_data = {"user_message": text_message, "text_response": text_response, "voice_response": encoded_content}
@@ -149,9 +149,9 @@ async def process_medi_message(file: UploadFile = File(...)):
             text_response = process_text_message(text_message)
             voice_response = text_to_speech(text_response)
         else:
-            return {"user_message": error_messages["file_format_error"]}
+            return {"text_response": error_messages["file_format_error"]}
     except Exception as e:
-        return {"user_message": error_messages["general_error"]}
+        return {"text_response": error_messages["general_error"]}
     with open(voice_response, "rb") as f:
         encoded_content = base64.b64encode(f.read()).decode("utf-8")
     response_data = {"user_message": text_message, "text_response": text_response, "voice_response": encoded_content}
