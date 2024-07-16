@@ -220,35 +220,32 @@ def process_medi_message(user_message: model_input):
 
 @app.post("/medi_voice")
 async def process_medi_message(file: UploadFile = File(...)):
-
-
     try:
-        
         # Check WAV format
         if file.filename.endswith('.wav'):
             audio_data = await file.read()
-            text_message =  process_voice_to_text_message(audio_data).lower()
+            text_message = process_voice_to_text_message(audio_data)
+            
+            if isinstance(text_message, dict):
+                # Handle the case where speech recognition failed
+                return JSONResponse(content=text_message, status_code=400)
+            
+            text_message = text_message.lower()  # Ensure text_message is lowercase
             text_response = process_text_message(text_message)
             voice_response = text_to_speech(text_response)
             
         else:
-            return {"text_response":"file must in format WAV"}
+            return {"text_response": "File must be in WAV format"}
 
-            
-            
-    except HTTPException as e:
+    except Exception as e:
         return {"text_response": str(e)}
-    
-    
     
     # Encode the audio data
     with open(voice_response, "rb") as f:
         encoded_content = base64.b64encode(f.read()).decode("utf-8")
     
-    
     # Combine text and audio into a single JSON response
     response_data = {"user_message": text_message, "text_response": text_response, "voice_response": encoded_content}
-        
     
     return JSONResponse(content=response_data)
 
